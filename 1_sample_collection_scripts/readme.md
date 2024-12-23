@@ -42,3 +42,39 @@ A Python scraper that downloads goodware samples from [Software Informer](https:
 
 - **`application_data`**  
   A global list storing metadata (`title`, `description`, `href`, `File`, `Size`, `MD5`, `Last checked`, `Download link`) for each scraped application.
+
+
+# `virusshare_scraper.py`
+
+This Jupyter Notebook contains code to access the [VirusShare](https://virusshare.com/) website and automatically download malicious samples. The scraper automates interactions with the VirusShare platform, making it easier to retrieve and manage sample datasets for cybersecurity research and analysis.
+
+## Features
+- Automatically logs into VirusShare.
+- Searches and retrieves malicious file samples by hash.
+- Saves the downloaded samples securely into a designated folder.
+- Includes safeguards and best practices for handling malicious files.
+
+## Usage
+1. **Environment Setup**:
+   - Ensure you run this notebook in a secure and isolated environment, such as a virtual machine, to prevent accidental infections.
+   - Install required Python libraries such as `requests` and `BeautifulSoup`.
+
+2. **Execution**:
+   - Update the code with your VirusShare credentials.
+   - Specify the list of hashes you wish to search for.
+   - Run the cells in sequence to perform the scraping and download process.
+
+3. **File Management**:
+   - Downloaded samples are saved in the `sample_download` folder for organized storage.
+
+## Ethical Considerations
+Downloading and handling malicious samples come with ethical and legal responsibilities. Always ensure:
+- Compliance with VirusShare’s terms of service and policies.
+- Adherence to broader cybersecurity ethics.
+- Proper precautions to isolate and secure the downloaded samples.
+
+**Caution**: VirusShare archives files with the password `infected` for security. Do not attempt to extract or execute these files outside a secure environment.
+
+
+---
+
