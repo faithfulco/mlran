@@ -82,3 +82,44 @@ Downloading and handling malicious samples come with ethical and legal responsib
 
 ---
 
+# `file_hash_calculator.py`
+
+The File Hash Calculator is a Python script that computes the SHA-256, SHA-1, and MD5 hashes for all files in a specified directory. The results are stored in a pandas DataFrame and can be saved to a CSV file for further analysis or record-keeping.
+
+## Features
+- Calculates SHA-256, SHA-1, and MD5 hashes for all files in a given directory.
+- Supports recursive traversal of subdirectories.
+- Outputs the results in a pandas DataFrame.
+- Option to save the DataFrame to a CSV file.
+
+## Requirements
+- Python 3.6+
+- pandas
+- hashlib
+
+## Installation
+1. Clone the repository or download the script file.
+
+2. Install the required Python packages using pip:
+    ```bash
+    pip install pandas
+    ```
+
+## Usage
+1. Open the script file `file_hash_calculator.py` in a text editor.
+
+2. Set the directory path where your files are located by modifying the `directory` variable:
+    ```python
+    directory = 'insert/the/path/to/your/folder'
+    ```
+
+3. Run the script:
+    ```bash
+    python file_hash_calculator.py
+    ```
+
+4. The script will print the DataFrame containing the file names and their corresponding hashes to the console.
+
+5. It will also save the DataFrame as a CSV.
+
+
