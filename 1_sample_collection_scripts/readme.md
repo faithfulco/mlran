@@ -1,5 +1,7 @@
 This folder contains the script used to download the goodware and some ransomware samples. 
 
+The `software_informer_scraper.py` script is used to download the goodware samples while the `virusshare_scraper.py` is used to download some of the ransomware samples. Details about these codes can be found below and in the code itself. 
+
 
 # `software_informer_scraper.py`
 
