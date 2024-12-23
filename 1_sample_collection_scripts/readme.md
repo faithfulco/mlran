@@ -46,6 +46,8 @@ A Python scraper that downloads goodware samples from [Software Informer](https:
   A global list storing metadata (`title`, `description`, `href`, `File`, `Size`, `MD5`, `Last checked`, `Download link`) for each scraped application.
 
 
+
+
 # `virusshare_scraper.py`
 
 This Jupyter Notebook contains code to access the [VirusShare](https://virusshare.com/) website and automatically download malicious samples. The scraper automates interactions with the VirusShare platform, making it easier to retrieve and manage sample datasets for cybersecurity research and analysis.
