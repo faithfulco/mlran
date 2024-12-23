@@ -52,7 +52,7 @@ This file contains descriptive information about **ransomware families**. It’s
 ---
 ### 3. `mlran_dataset_metadata.csv`
 
-This file is part of the **MLRan dataset**. It includes metadata that correlates **sample IDs** to cryptographic hashes, classification labels (e.g. ransomware vs. goodware) and other metadata.
+This file contains the metadata of the **MLRan dataset**. It includes metadata that correlates **sample IDs** to cryptographic hashes, classification labels (e.g. ransomware vs. goodware) and other metadata. 
 
 #### **Columns**
 
