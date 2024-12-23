@@ -46,7 +46,7 @@ A Python scraper that downloads goodware samples from [Software Informer](https:
   A global list storing metadata (`title`, `description`, `href`, `File`, `Size`, `MD5`, `Last checked`, `Download link`) for each scraped application.
 
 
-
+---
 
 # `virusshare_scraper.py`
 
