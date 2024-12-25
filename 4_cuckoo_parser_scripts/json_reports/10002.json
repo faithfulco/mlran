@@ -1,0 +1,4143 @@
+{
+    "info": {
+        "added": 1717620830.901316, 
+        "started": 1717620832.312613, 
+        "duration": 141, 
+        "ended": 1717620974.270433, 
+        "owner": null, 
+        "score": 3.6, 
+        "id": 2, 
+        "category": "file", 
+        "git": {
+            "head": "13cbe0d9e457be3673304533043e992ead1ea9b2", 
+            "fetch_head": "13cbe0d9e457be3673304533043e992ead1ea9b2"
+        }, 
+        "monitor": "2deb9ccd75d5a7a3fe05b2625b03a8639d6ee36b", 
+        "package": "", 
+        "route": "none", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "192.168.56.1012", 
+            "label": "192.168.56.1012", 
+            "manager": "VirtualBox", 
+            "started_on": "2024-06-05 20:53:52", 
+            "shutdown_on": "2024-06-05 20:56:13"
+        }, 
+        "platform": null, 
+        "version": "2.0.7", 
+        "options": ""
+    }, 
+    "procmemory": [
+        {
+            "regions": [
+                {
+                    "protect": "rw", 
+                    "end": "0x00030000", 
+                    "addr": "0x00010000", 
+                    "state": 4096, 
+                    "offset": 24, 
+                    "type": 131072, 
+                    "size": 131072
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00032000", 
+                    "addr": "0x00030000", 
+                    "state": 4096, 
+                    "offset": 131120, 
+                    "type": 131072, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x00041000", 
+                    "addr": "0x00040000", 
+                    "state": 4096, 
+                    "offset": 139336, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x00054000", 
+                    "addr": "0x00050000", 
+                    "state": 4096, 
+                    "offset": 143456, 
+                    "type": 262144, 
+                    "size": 16384
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x00062000", 
+                    "addr": "0x00060000", 
+                    "state": 4096, 
+                    "offset": 159864, 
+                    "type": 262144, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x00071000", 
+                    "addr": "0x00070000", 
+                    "state": 4096, 
+                    "offset": 168080, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x00121000", 
+                    "addr": "0x00071000", 
+                    "state": 4096, 
+                    "offset": 172200, 
+                    "type": 16777216, 
+                    "size": 720896
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x00124000", 
+                    "addr": "0x00121000", 
+                    "state": 4096, 
+                    "offset": 893120, 
+                    "type": 16777216, 
+                    "size": 12288
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x002f1000", 
+                    "addr": "0x00124000", 
+                    "state": 4096, 
+                    "offset": 905432, 
+                    "type": 16777216, 
+                    "size": 1888256
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00301000", 
+                    "addr": "0x00300000", 
+                    "state": 4096, 
+                    "offset": 2793712, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x00311000", 
+                    "addr": "0x00310000", 
+                    "state": 4096, 
+                    "offset": 2797832, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x00321000", 
+                    "addr": "0x00320000", 
+                    "state": 4096, 
+                    "offset": 2801952, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00370000", 
+                    "addr": "0x0036c000", 
+                    "state": 4096, 
+                    "offset": 2806072, 
+                    "type": 131072, 
+                    "size": 16384
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x00371000", 
+                    "addr": "0x00370000", 
+                    "state": 4096, 
+                    "offset": 2822480, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x003a5000", 
+                    "addr": "0x00380000", 
+                    "state": 4096, 
+                    "offset": 2826600, 
+                    "type": 262144, 
+                    "size": 151552
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x004e0000", 
+                    "addr": "0x004dc000", 
+                    "state": 4096, 
+                    "offset": 2978176, 
+                    "type": 131072, 
+                    "size": 16384
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x005a0000", 
+                    "addr": "0x00592000", 
+                    "state": 4096, 
+                    "offset": 2994584, 
+                    "type": 131072, 
+                    "size": 57344
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00640000", 
+                    "addr": "0x00632000", 
+                    "state": 4096, 
+                    "offset": 3051952, 
+                    "type": 131072, 
+                    "size": 57344
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x778b1000", 
+                    "addr": "0x778b0000", 
+                    "state": 4096, 
+                    "offset": 3109320, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x779b3000", 
+                    "addr": "0x778b1000", 
+                    "state": 4096, 
+                    "offset": 3113440, 
+                    "type": 16777216, 
+                    "size": 1056768
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x779e2000", 
+                    "addr": "0x779b3000", 
+                    "state": 4096, 
+                    "offset": 4170232, 
+                    "type": 16777216, 
+                    "size": 192512
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x779ee000", 
+                    "addr": "0x779e2000", 
+                    "state": 4096, 
+                    "offset": 4362768, 
+                    "type": 16777216, 
+                    "size": 49152
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x77a59000", 
+                    "addr": "0x779ee000", 
+                    "state": 4096, 
+                    "offset": 4411944, 
+                    "type": 16777216, 
+                    "size": 438272
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x77a91000", 
+                    "addr": "0x77a90000", 
+                    "state": 4096, 
+                    "offset": 4850240, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x77b76000", 
+                    "addr": "0x77aa0000", 
+                    "state": 4096, 
+                    "offset": 4854360, 
+                    "type": 16777216, 
+                    "size": 876544
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x77b81000", 
+                    "addr": "0x77b80000", 
+                    "state": 4096, 
+                    "offset": 5730928, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x77b99000", 
+                    "addr": "0x77b90000", 
+                    "state": 4096, 
+                    "offset": 5735048, 
+                    "type": 16777216, 
+                    "size": 36864
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x77bf7000", 
+                    "addr": "0x77ba0000", 
+                    "state": 4096, 
+                    "offset": 5771936, 
+                    "type": 16777216, 
+                    "size": 356352
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x77c05000", 
+                    "addr": "0x77c00000", 
+                    "state": 4096, 
+                    "offset": 6128312, 
+                    "type": 16777216, 
+                    "size": 20480
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7efd3000", 
+                    "addr": "0x7efb0000", 
+                    "state": 4096, 
+                    "offset": 6148816, 
+                    "type": 262144, 
+                    "size": 143360
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x7efdb000", 
+                    "addr": "0x7efd8000", 
+                    "state": 4096, 
+                    "offset": 6292200, 
+                    "type": 131072, 
+                    "size": 12288
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x7efde000", 
+                    "addr": "0x7efdb000", 
+                    "state": 4096, 
+                    "offset": 6304512, 
+                    "type": 131072, 
+                    "size": 12288
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x7efdf000", 
+                    "addr": "0x7efde000", 
+                    "state": 4096, 
+                    "offset": 6316824, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x7efe0000", 
+                    "addr": "0x7efdf000", 
+                    "state": 4096, 
+                    "offset": 6320944, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7ffe1000", 
+                    "addr": "0x7ffe0000", 
+                    "state": 4096, 
+                    "offset": 6325064, 
+                    "type": 131072, 
+                    "size": 4096
+                }
+            ], 
+            "yara": [], 
+            "num": 1, 
+            "file": "/home/razvan/.cuckoo/storage/analyses/2/memory/2404-1.dmp", 
+            "urls": [], 
+            "extracted": [
+                {
+                    "yara": [], 
+                    "sha1": "52f6ff6b3fbdaaa8bdbedf67ee7fbd1d2dd330c1", 
+                    "name": "2404-52f6ff6b3fbdaaa8.exe_", 
+                    "type": "PE32 executable (GUI) Intel 80386, for MS Windows", 
+                    "sha256": "3270a50bd0ea2d14ad644d02b05b04cb173dd9d21d30d078004a39247ec4d371", 
+                    "urls": [], 
+                    "crc32": "AAE11D6A", 
+                    "path": "/home/razvan/.cuckoo/storage/analyses/2/memory/2404-52f6ff6b3fbdaaa8.exe_", 
+                    "ssdeep": null, 
+                    "size": 2625536, 
+                    "sha512": "5cd364c282ad95e9f47c48608ec9995572992bed2783cfb1c37a855ef2b82d65e81da9561aa93b6cb5b30fe51aca13597c0b44a22d82bc690d3ff27c0b54a988", 
+                    "md5": "8fec4487c9675be9b37f3ddbd0da1407"
+                }, 
+                {
+                    "yara": [], 
+                    "sha1": "2295eef40e34d6f62134896e683ad930d1f843d0", 
+                    "name": "2404-2295eef40e34d6f6.exe_", 
+                    "type": "PE32 executable (GUI) Intel 80386, for MS Windows", 
+                    "sha256": "134c5d5ccae74a4df91e5a6306c2978486b37d399fc915d9660bfc4f620c44d8", 
+                    "urls": [], 
+                    "crc32": "12FAEE0D", 
+                    "path": "/home/razvan/.cuckoo/storage/analyses/2/memory/2404-2295eef40e34d6f6.exe_", 
+                    "ssdeep": null, 
+                    "size": 151552, 
+                    "sha512": "4c4841cc39c7348fb25458ad3c61953fb59607757bb55b7e8246b9e2181439e490bd890429982a2f867fa27ff77e917c64be15b15e6171b74ed905171f7da294", 
+                    "md5": "730c2e3ee5822de41196a5e97412a4ec"
+                }
+            ], 
+            "pid": 2404
+        }
+    ], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "yara": [], 
+            "sha1": "96fb7d2e3ad9fe434a66abb15b26dd4e40aa5d4b", 
+            "name": "10002", 
+            "type": "PE32 executable (GUI) Intel 80386, for MS Windows", 
+            "sha256": "00735e4ad3e9a9a5b3551dce371248327e74ef3c25edca343b063c4914a8afb0", 
+            "urls": [], 
+            "crc32": "C2011FBF", 
+            "path": "/home/razvan/.cuckoo/storage/binaries/00735e4ad3e9a9a5b3551dce371248327e74ef3c25edca343b063c4914a8afb0", 
+            "ssdeep": null, 
+            "size": 132096, 
+            "sha512": "bee50fb9f66126ef51593f80c364f82df301c5e96ed380a6cf90bb67a50d3bb42adf4a3c0214512455061e8952fd97500e82a2d3dbe27e111e597e2cc6ef783d", 
+            "md5": "aea8ab12edf294ddb2804d6618fdd247"
+        }
+    }, 
+    "buffer": [
+        {
+            "yara": [], 
+            "sha1": "7ccea58d11125c47adf75c05bbe89c8e49326ffa", 
+            "name": "7ccea58d11125c47adf75c05bbe89c8e49326ffa", 
+            "type": "PE32 executable (GUI) Intel 80386, for MS Windows", 
+            "sha256": "4d15756629998db8ea52e9d1abb3943ca1e87860597aaaebeeb22d7bfab51083", 
+            "urls": [], 
+            "crc32": "152CEB6D", 
+            "path": "/home/razvan/.cuckoo/storage/analyses/2/buffer/7ccea58d11125c47adf75c05bbe89c8e49326ffa", 
+            "ssdeep": null, 
+            "size": 151552, 
+            "sha512": "d567ba6daebafb85b7ac74ad281363447f371d972345fa70c9ddc2c4410168cbddf63373303950b38df5f22527782411b7067ff8ba66e41bf89291516550e804", 
+            "md5": "8e2cb5d10d391c0370167f8999290a19"
+        }
+    ], 
+    "suricata": {
+        "tls": [], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "network": {
+        "tls": [], 
+        "udp": [
+            {
+                "src": "192.168.56.102", 
+                "dst": "192.168.56.255", 
+                "offset": 1242, 
+                "time": 3.0633339881896973, 
+                "dport": 137, 
+                "sport": 137
+            }, 
+            {
+                "src": "192.168.56.102", 
+                "dst": "192.168.56.255", 
+                "offset": 9162, 
+                "time": 9.078584909439087, 
+                "dport": 138, 
+                "sport": 138
+            }, 
+            {
+                "src": "192.168.56.102", 
+                "dst": "224.0.0.252", 
+                "offset": 10858, 
+                "time": 5.315413951873779, 
+                "dport": 5355, 
+                "sport": 51624
+            }, 
+            {
+                "src": "192.168.56.102", 
+                "dst": "224.0.0.252", 
+                "offset": 11186, 
+                "time": 2.753185987472534, 
+                "dport": 5355, 
+                "sport": 51816
+            }, 
+            {
+                "src": "192.168.56.102", 
+                "dst": "224.0.0.252", 
+                "offset": 11514, 
+                "time": 2.4227960109710693, 
+                "dport": 5355, 
+                "sport": 53288
+            }, 
+            {
+                "src": "192.168.56.102", 
+                "dst": "224.0.0.252", 
+                "offset": 11842, 
+                "time": 17.177278995513916, 
+                "dport": 5355, 
+                "sport": 53316
+            }, 
+            {
+                "src": "192.168.56.102", 
+                "dst": "224.0.0.252", 
+                "offset": 12162, 
+                "time": 10.438415050506592, 
+                "dport": 5355, 
+                "sport": 53910
+            }, 
+            {
+                "src": "192.168.56.102", 
+                "dst": "224.0.0.252", 
+                "offset": 12490, 
+                "time": 1.0241940021514893, 
+                "dport": 5355, 
+                "sport": 56210
+            }, 
+            {
+                "src": "192.168.56.102", 
+                "dst": "224.0.0.252", 
+                "offset": 12834, 
+                "time": 3.224623918533325, 
+                "dport": 5355, 
+                "sport": 56434
+            }, 
+            {
+                "src": "192.168.56.102", 
+                "dst": "224.0.0.252", 
+                "offset": 13154, 
+                "time": 3.010448932647705, 
+                "dport": 5355, 
+                "sport": 56967
+            }, 
+            {
+                "src": "192.168.56.102", 
+                "dst": "224.0.0.252", 
+                "offset": 13498, 
+                "time": 1.769312858581543, 
+                "dport": 5355, 
+                "sport": 58036
+            }, 
+            {
+                "src": "192.168.56.102", 
+                "dst": "224.0.0.252", 
+                "offset": 13826, 
+                "time": 1.445037841796875, 
+                "dport": 5355, 
+                "sport": 58331
+            }, 
+            {
+                "src": "192.168.56.102", 
+                "dst": "224.0.0.252", 
+                "offset": 14154, 
+                "time": 2.0959160327911377, 
+                "dport": 5355, 
+                "sport": 59280
+            }, 
+            {
+                "src": "192.168.56.102", 
+                "dst": "224.0.0.252", 
+                "offset": 14482, 
+                "time": 7.885149955749512, 
+                "dport": 5355, 
+                "sport": 62967
+            }, 
+            {
+                "src": "192.168.56.102", 
+                "dst": "8.8.8.8", 
+                "offset": 14810, 
+                "time": 5.788132905960083, 
+                "dport": 53, 
+                "sport": 49895
+            }, 
+            {
+                "src": "192.168.56.102", 
+                "dst": "8.8.8.8", 
+                "offset": 15270, 
+                "time": 9.073359966278076, 
+                "dport": 53, 
+                "sport": 54517
+            }, 
+            {
+                "src": "192.168.56.102", 
+                "dst": "8.8.8.8", 
+                "offset": 15730, 
+                "time": 3.0640430450439453, 
+                "dport": 53, 
+                "sport": 58279
+            }, 
+            {
+                "src": "192.168.56.102", 
+                "dst": "8.8.8.8", 
+                "offset": 16190, 
+                "time": 16.951671838760376, 
+                "dport": 53, 
+                "sport": 63994
+            }, 
+            {
+                "src": "192.168.56.102", 
+                "dst": "8.8.8.8", 
+                "offset": 16448, 
+                "time": 3.01025390625, 
+                "dport": 53, 
+                "sport": 65186
+            }
+        ], 
+        "dns_servers": [
+            "8.8.8.8"
+        ], 
+        "http": [], 
+        "icmp": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "smtp_ex": [], 
+        "mitm": [], 
+        "hosts": [
+            "8.8.8.8"
+        ], 
+        "pcap_sha256": "3b361d5162fea5559b21b7641362603397c67c1bdfa7871f6ed4faa383ceb0e5", 
+        "dns": [
+            {
+                "type": "A", 
+                "request": "www.msftncsi.com", 
+                "answers": []
+            }, 
+            {
+                "type": "A", 
+                "request": "teredo.ipv6.microsoft.com", 
+                "answers": []
+            }, 
+            {
+                "type": "A", 
+                "request": "time.windows.com", 
+                "answers": []
+            }, 
+            {
+                "type": "A", 
+                "request": "dns.msftncsi.com", 
+                "answers": []
+            }, 
+            {
+                "type": "A", 
+                "request": "ip-addr.es", 
+                "answers": []
+            }
+        ], 
+        "http_ex": [], 
+        "domains": [
+            {
+                "ip": "2.19.117.164", 
+                "domain": "www.msftncsi.com"
+            }, 
+            {
+                "ip": "131.107.255.255", 
+                "domain": "dns.msftncsi.com"
+            }, 
+            {
+                "ip": "188.165.164.184", 
+                "domain": "ip-addr.es"
+            }, 
+            {
+                "ip": "", 
+                "domain": "teredo.ipv6.microsoft.com"
+            }
+        ], 
+        "dead_hosts": [], 
+        "sorted_pcap_sha256": "770c6156e359f3841fc57aecd862ee4ef255915c926bfe0386d1ee1c0f59bc29", 
+        "irc": [], 
+        "https_ex": []
+    }, 
+    "signatures": [
+        {
+            "families": [], 
+            "description": "One or more potentially interesting buffers were extracted, these generally contain injected code, configuration data, etc.", 
+            "severity": 2, 
+            "ttp": {}, 
+            "markcount": 0, 
+            "references": [], 
+            "marks": [], 
+            "name": "dumped_buffer"
+        }, 
+        {
+            "families": [], 
+            "description": "Looks up the external IP address", 
+            "severity": 2, 
+            "ttp": {}, 
+            "markcount": 1, 
+            "references": [], 
+            "marks": [
+                {
+                    "category": "domain", 
+                    "ioc": "ip-addr.es", 
+                    "type": "ioc", 
+                    "description": null
+                }
+            ], 
+            "name": "recon_checkip"
+        }, 
+        {
+            "families": [], 
+            "description": "The binary likely contains encrypted or compressed data indicative of a packer", 
+            "severity": 2, 
+            "ttp": {
+                "T1045": {
+                    "short": "Software Packing", 
+                    "long": "Software packing is a method of compressing or encrypting an executable. Packing an executable changes the file signature in an attempt to avoid signature-based detection. Most decompression techniques decompress the executable code in memory."
+                }
+            }, 
+            "markcount": 2, 
+            "references": [
+                "http://www.forensickb.com/2013/03/file-entropy-explained.html", 
+                "http://virii.es/U/Using%20Entropy%20Analysis%20to%20Find%20Encrypted%20and%20Packed%20Malware.pdf"
+            ], 
+            "marks": [
+                {
+                    "entropy": 7.603730635735685, 
+                    "section": {
+                        "size_of_data": "0x00009600", 
+                        "virtual_address": "0x00019000", 
+                        "entropy": 7.603730635735685, 
+                        "name": ".data", 
+                        "virtual_size": "0x0000a6f8"
+                    }, 
+                    "type": "generic", 
+                    "description": "A section with a high entropy has been found"
+                }, 
+                {
+                    "entropy": 0.29296875, 
+                    "type": "generic", 
+                    "description": "Overall entropy of this PE file is high"
+                }
+            ], 
+            "name": "packer_entropy"
+        }, 
+        {
+            "families": [], 
+            "description": "One or more of the buffers contains an embedded PE file", 
+            "severity": 3, 
+            "ttp": {}, 
+            "markcount": 1, 
+            "references": [], 
+            "marks": [
+                {
+                    "category": "buffer", 
+                    "ioc": "Buffer with sha1: 7ccea58d11125c47adf75c05bbe89c8e49326ffa", 
+                    "type": "ioc", 
+                    "description": null
+                }
+            ], 
+            "name": "dumped_buffer2"
+        }, 
+        {
+            "families": [], 
+            "description": "Manipulates memory of a non-child process indicative of process injection", 
+            "severity": 3, 
+            "ttp": {}, 
+            "markcount": 2, 
+            "references": [
+                "www.endgame.com/blog/technical-blog/ten-process-injection-techniques-technical-survey-common-and-trending-process"
+            ], 
+            "marks": [
+                {
+                    "category": "Process injection", 
+                    "ioc": "Process 2348 manipulating memory of non-child process 2404", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "call": {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "buffer": "7ccea58d11125c47adf75c05bbe89c8e49326ffa", 
+                        "api": "NtMapViewOfSection", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "section_handle": "0x00000098", 
+                            "process_identifier": 2404, 
+                            "commit_size": 151552, 
+                            "win32_protect": 64, 
+                            "buffer": "", 
+                            "process_handle": "0x00000080", 
+                            "allocation_type": 0, 
+                            "section_offset": 0, 
+                            "view_size": 151552, 
+                            "base_address": "0x00380000"
+                        }, 
+                        "time": 1717617232.40625, 
+                        "tid": 2352, 
+                        "flags": {
+                            "win32_protect": "PAGE_EXECUTE_READWRITE", 
+                            "allocation_type": ""
+                        }
+                    }, 
+                    "pid": 2348, 
+                    "type": "call", 
+                    "cid": 117
+                }
+            ], 
+            "name": "injection_modifies_memory"
+        }, 
+        {
+            "families": [], 
+            "description": "Resumed a suspended thread in a remote process potentially indicative of process injection", 
+            "severity": 3, 
+            "ttp": {}, 
+            "markcount": 2, 
+            "references": [
+                "www.endgame.com/blog/technical-blog/ten-process-injection-techniques-technical-survey-common-and-trending-process"
+            ], 
+            "marks": [
+                {
+                    "category": "Process injection", 
+                    "ioc": "Process 2348 resumed a thread in remote process 2404", 
+                    "type": "ioc", 
+                    "description": null
+                }, 
+                {
+                    "call": {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtResumeThread", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "thread_handle": "0x00000098", 
+                            "suspend_count": 1, 
+                            "process_identifier": 2404
+                        }, 
+                        "time": 1717617232.90625, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    "pid": 2348, 
+                    "type": "call", 
+                    "cid": 121
+                }
+            ], 
+            "name": "injection_resumethread"
+        }, 
+        {
+            "families": [], 
+            "description": "Created a process named as a common system process", 
+            "severity": 3, 
+            "ttp": {
+                "T1036": {
+                    "short": "Masquerading", 
+                    "long": "Masquerading occurs when the name or location of an executable, legitimate or malicious, is manipulated or abused for the sake of evading defenses and observation. Several different variations of this technique have been observed."
+                }
+            }, 
+            "markcount": 1, 
+            "references": [], 
+            "marks": [
+                {
+                    "call": {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "CreateProcessInternalW", 
+                        "return_value": 1, 
+                        "arguments": {
+                            "thread_identifier": 2408, 
+                            "thread_handle": "0x0000008c", 
+                            "process_identifier": 2404, 
+                            "current_directory": "", 
+                            "filepath": "C:\\Windows\\SysWOW64\\explorer.exe", 
+                            "track": 1, 
+                            "command_line": "", 
+                            "filepath_r": "C:\\Windows\\syswow64\\explorer.exe", 
+                            "stack_pivoted": 0, 
+                            "creation_flags": 4, 
+                            "process_handle": "0x00000080", 
+                            "inherit_handles": 0
+                        }, 
+                        "time": 1717617232.40625, 
+                        "tid": 2352, 
+                        "flags": {
+                            "creation_flags": "CREATE_SUSPENDED"
+                        }
+                    }, 
+                    "pid": 2348, 
+                    "type": "call", 
+                    "cid": 114
+                }
+            ], 
+            "name": "stealth_system_procname"
+        }
+    ], 
+    "static": {
+        "pdb_path": null, 
+        "pe_imports": [], 
+        "peid_signatures": null, 
+        "keys": [], 
+        "signature": [], 
+        "pe_timestamp": "2015-04-02 21:57:24", 
+        "pe_exports": [], 
+        "imported_dll_count": 0, 
+        "pe_imphash": "", 
+        "pe_resources": [], 
+        "pe_versioninfo": [], 
+        "pe_sections": [
+            {
+                "size_of_data": "0x00016200", 
+                "virtual_address": "0x00001000", 
+                "entropy": 5.92550808686294, 
+                "name": ".text", 
+                "virtual_size": "0x0001600f"
+            }, 
+            {
+                "size_of_data": "0x00000200", 
+                "virtual_address": "0x00018000", 
+                "entropy": 0.8064399472906312, 
+                "name": ".rdata", 
+                "virtual_size": "0x000000a4"
+            }, 
+            {
+                "size_of_data": "0x00009600", 
+                "virtual_address": "0x00019000", 
+                "entropy": 7.603730635735685, 
+                "name": ".data", 
+                "virtual_size": "0x0000a6f8"
+            }, 
+            {
+                "size_of_data": "0x00000600", 
+                "virtual_address": "0x00024000", 
+                "entropy": 5.520946245440529, 
+                "name": ".reloc", 
+                "virtual_size": "0x0000049c"
+            }
+        ]
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": "C:\\Windows\\System32\\lsass.exe", 
+                "process_name": "lsass.exe", 
+                "pid": 488, 
+                "summary": {}, 
+                "first_seen": 1717617231.28125, 
+                "ppid": 380
+            }, 
+            {
+                "process_path": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\10002.exe", 
+                "process_name": "10002.exe", 
+                "pid": 2348, 
+                "summary": {
+                    "file_opened": [
+                        "C:\\Windows\\SysWOW64\\explorer.exe", 
+                        "C:\\Users\\Administrator\\AppData\\Local\\Temp"
+                    ], 
+                    "command_line": [
+                        "C:\\Windows\\SysWOW64\\explorer.exe"
+                    ], 
+                    "regkey_opened": [
+                        "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings"
+                    ], 
+                    "regkey_read": [
+                        "HKEY_LOCAL_MACHINE\\SYSTEM\\ControlSet001\\services\\crypt32\\DebugHeapFlags", 
+                        "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Security_HKLM_only", 
+                        "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\OLE\\PageAllocatorUseSystemHeap", 
+                        "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows NT\\CurrentVersion\\Windows\\LoadAppInit_DLLs", 
+                        "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\DisableImprovedZoneCheck", 
+                        "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\GRE_Initialize\\DisableMetaFiles", 
+                        "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\OLE\\PageAllocatorSystemHeapIsPrivate"
+                    ], 
+                    "dll_loaded": [
+                        "C:\\Windows\\system32\\IMM32.DLL", 
+                        "CRYPTSP.dll", 
+                        "wininet.dll", 
+                        "gdi32.dll", 
+                        "advapi32.dll", 
+                        "ole32.dll", 
+                        "ws2_32.dll", 
+                        "user32.dll"
+                    ]
+                }, 
+                "first_seen": 1717617231.90625, 
+                "ppid": 2324
+            }
+        ], 
+        "apistats": {
+            "2348": {
+                "RegCloseKey": 1, 
+                "GetSystemInfo": 3, 
+                "RegQueryValueExA": 1, 
+                "NtTerminateProcess": 1, 
+                "NtClose": 16, 
+                "CryptHashData": 1, 
+                "CryptCreateHash": 1, 
+                "NtMapViewOfSection": 2, 
+                "NtCreateThreadEx": 1, 
+                "NtAllocateVirtualMemory": 16, 
+                "RegOpenKeyExA": 1, 
+                "NtOpenDirectoryObject": 1, 
+                "NtFreeVirtualMemory": 27, 
+                "NtQuerySystemInformation": 1, 
+                "NtResumeThread": 1, 
+                "NtUnmapViewOfSection": 1, 
+                "GetSystemDirectoryW": 2, 
+                "CryptAcquireContextW": 1, 
+                "NtCreateFile": 2, 
+                "GetSystemTimeAsFileTime": 4, 
+                "NtCreateMutant": 1, 
+                "NtProtectVirtualMemory": 3, 
+                "LdrGetDllHandle": 5, 
+                "NtCreateSection": 1, 
+                "NtOpenKey": 2, 
+                "LdrGetProcedureAddress": 12, 
+                "NtOpenKeyEx": 7, 
+                "LdrLoadDll": 8, 
+                "CreateProcessInternalW": 1, 
+                "NtQueryValueKey": 6
+            }
+        }, 
+        "processes": [
+            {
+                "process_path": "C:\\Windows\\System32\\lsass.exe", 
+                "calls": [], 
+                "track": false, 
+                "pid": 488, 
+                "process_name": "lsass.exe", 
+                "command_line": "C:\\Windows\\system32\\lsass.exe", 
+                "modules": [
+                    {
+                        "basename": "lsass.exe", 
+                        "imgsize": 49152, 
+                        "baseaddr": "0xff370000", 
+                        "filepath": "C:\\Windows\\system32\\lsass.exe"
+                    }, 
+                    {
+                        "basename": "ntdll.dll", 
+                        "imgsize": 1740800, 
+                        "baseaddr": "0x778b0000", 
+                        "filepath": "C:\\Windows\\SYSTEM32\\ntdll.dll"
+                    }, 
+                    {
+                        "basename": "kernel32.dll", 
+                        "imgsize": 1175552, 
+                        "baseaddr": "0x77690000", 
+                        "filepath": "C:\\Windows\\system32\\kernel32.dll"
+                    }, 
+                    {
+                        "basename": "KERNELBASE.dll", 
+                        "imgsize": 438272, 
+                        "baseaddr": "0x7fefda80000", 
+                        "filepath": "C:\\Windows\\system32\\KERNELBASE.dll"
+                    }, 
+                    {
+                        "basename": "msvcrt.dll", 
+                        "imgsize": 651264, 
+                        "baseaddr": "0x7fefdd00000", 
+                        "filepath": "C:\\Windows\\system32\\msvcrt.dll"
+                    }, 
+                    {
+                        "basename": "RPCRT4.dll", 
+                        "imgsize": 1232896, 
+                        "baseaddr": "0x7feff790000", 
+                        "filepath": "C:\\Windows\\system32\\RPCRT4.dll"
+                    }, 
+                    {
+                        "basename": "SspiSrv.dll", 
+                        "imgsize": 45056, 
+                        "baseaddr": "0x7fefd650000", 
+                        "filepath": "C:\\Windows\\system32\\SspiSrv.dll"
+                    }, 
+                    {
+                        "basename": "lsasrv.dll", 
+                        "imgsize": 1470464, 
+                        "baseaddr": "0x7fefd3f0000", 
+                        "filepath": "C:\\Windows\\system32\\lsasrv.dll"
+                    }, 
+                    {
+                        "basename": "sechost.dll", 
+                        "imgsize": 126976, 
+                        "baseaddr": "0x7fefdf80000", 
+                        "filepath": "C:\\Windows\\SYSTEM32\\sechost.dll"
+                    }, 
+                    {
+                        "basename": "SspiCli.dll", 
+                        "imgsize": 151552, 
+                        "baseaddr": "0x7fefd660000", 
+                        "filepath": "C:\\Windows\\system32\\SspiCli.dll"
+                    }, 
+                    {
+                        "basename": "ADVAPI32.dll", 
+                        "imgsize": 897024, 
+                        "baseaddr": "0x7feff3c0000", 
+                        "filepath": "C:\\Windows\\system32\\ADVAPI32.dll"
+                    }, 
+                    {
+                        "basename": "USER32.dll", 
+                        "imgsize": 1024000, 
+                        "baseaddr": "0x777b0000", 
+                        "filepath": "C:\\Windows\\system32\\USER32.dll"
+                    }, 
+                    {
+                        "basename": "GDI32.dll", 
+                        "imgsize": 421888, 
+                        "baseaddr": "0x7feff6b0000", 
+                        "filepath": "C:\\Windows\\system32\\GDI32.dll"
+                    }, 
+                    {
+                        "basename": "LPK.dll", 
+                        "imgsize": 57344, 
+                        "baseaddr": "0x7feff780000", 
+                        "filepath": "C:\\Windows\\system32\\LPK.dll"
+                    }, 
+                    {
+                        "basename": "USP10.dll", 
+                        "imgsize": 823296, 
+                        "baseaddr": "0x7fefe050000", 
+                        "filepath": "C:\\Windows\\system32\\USP10.dll"
+                    }, 
+                    {
+                        "basename": "SAMSRV.dll", 
+                        "imgsize": 774144, 
+                        "baseaddr": "0x7fefd330000", 
+                        "filepath": "C:\\Windows\\system32\\SAMSRV.dll"
+                    }, 
+                    {
+                        "basename": "cryptdll.dll", 
+                        "imgsize": 81920, 
+                        "baseaddr": "0x7fefd310000", 
+                        "filepath": "C:\\Windows\\system32\\cryptdll.dll"
+                    }, 
+                    {
+                        "basename": "MSASN1.dll", 
+                        "imgsize": 61440, 
+                        "baseaddr": "0x7fefd8a0000", 
+                        "filepath": "C:\\Windows\\system32\\MSASN1.dll"
+                    }, 
+                    {
+                        "basename": "wevtapi.dll", 
+                        "imgsize": 446464, 
+                        "baseaddr": "0x7fefd2a0000", 
+                        "filepath": "C:\\Windows\\system32\\wevtapi.dll"
+                    }, 
+                    {
+                        "basename": "IMM32.DLL", 
+                        "imgsize": 188416, 
+                        "baseaddr": "0x7feff2b0000", 
+                        "filepath": "C:\\Windows\\system32\\IMM32.DLL"
+                    }, 
+                    {
+                        "basename": "MSCTF.dll", 
+                        "imgsize": 1085440, 
+                        "baseaddr": "0x7fefdbf0000", 
+                        "filepath": "C:\\Windows\\system32\\MSCTF.dll"
+                    }, 
+                    {
+                        "basename": "cngaudit.dll", 
+                        "imgsize": 36864, 
+                        "baseaddr": "0x7fefd290000", 
+                        "filepath": "C:\\Windows\\system32\\cngaudit.dll"
+                    }, 
+                    {
+                        "basename": "AUTHZ.dll", 
+                        "imgsize": 192512, 
+                        "baseaddr": "0x7fefd260000", 
+                        "filepath": "C:\\Windows\\system32\\AUTHZ.dll"
+                    }, 
+                    {
+                        "basename": "ncrypt.dll", 
+                        "imgsize": 319488, 
+                        "baseaddr": "0x7fefd210000", 
+                        "filepath": "C:\\Windows\\system32\\ncrypt.dll"
+                    }, 
+                    {
+                        "basename": "bcrypt.dll", 
+                        "imgsize": 139264, 
+                        "baseaddr": "0x7fefd1e0000", 
+                        "filepath": "C:\\Windows\\system32\\bcrypt.dll"
+                    }, 
+                    {
+                        "basename": "msprivs.DLL", 
+                        "imgsize": 8192, 
+                        "baseaddr": "0x755d0000", 
+                        "filepath": "C:\\Windows\\system32\\msprivs.DLL"
+                    }, 
+                    {
+                        "basename": "netjoin.dll", 
+                        "imgsize": 204800, 
+                        "baseaddr": "0x7fefd1a0000", 
+                        "filepath": "C:\\Windows\\system32\\netjoin.dll"
+                    }, 
+                    {
+                        "basename": "negoexts.DLL", 
+                        "imgsize": 147456, 
+                        "baseaddr": "0x7fefd170000", 
+                        "filepath": "C:\\Windows\\system32\\negoexts.DLL"
+                    }, 
+                    {
+                        "basename": "Secur32.dll", 
+                        "imgsize": 45056, 
+                        "baseaddr": "0x7fefd600000", 
+                        "filepath": "C:\\Windows\\system32\\Secur32.dll"
+                    }, 
+                    {
+                        "basename": "cryptbase.dll", 
+                        "imgsize": 61440, 
+                        "baseaddr": "0x7fefd6f0000", 
+                        "filepath": "C:\\Windows\\system32\\cryptbase.dll"
+                    }, 
+                    {
+                        "basename": "kerberos.DLL", 
+                        "imgsize": 737280, 
+                        "baseaddr": "0x7fefd0b0000", 
+                        "filepath": "C:\\Windows\\system32\\kerberos.DLL"
+                    }, 
+                    {
+                        "basename": "CRYPTSP.dll", 
+                        "imgsize": 94208, 
+                        "baseaddr": "0x7fefd090000", 
+                        "filepath": "C:\\Windows\\system32\\CRYPTSP.dll"
+                    }, 
+                    {
+                        "basename": "WS2_32.dll", 
+                        "imgsize": 315392, 
+                        "baseaddr": "0x7feff060000", 
+                        "filepath": "C:\\Windows\\system32\\WS2_32.dll"
+                    }, 
+                    {
+                        "basename": "NSI.dll", 
+                        "imgsize": 32768, 
+                        "baseaddr": "0x7fefdfa0000", 
+                        "filepath": "C:\\Windows\\system32\\NSI.dll"
+                    }, 
+                    {
+                        "basename": "mswsock.dll", 
+                        "imgsize": 348160, 
+                        "baseaddr": "0x7fefd030000", 
+                        "filepath": "C:\\Windows\\system32\\mswsock.dll"
+                    }, 
+                    {
+                        "basename": "wship6.dll", 
+                        "imgsize": 28672, 
+                        "baseaddr": "0x7fefd020000", 
+                        "filepath": "C:\\Windows\\System32\\wship6.dll"
+                    }, 
+                    {
+                        "basename": "msv1_0.DLL", 
+                        "imgsize": 331776, 
+                        "baseaddr": "0x7fefcfc0000", 
+                        "filepath": "C:\\Windows\\system32\\msv1_0.DLL"
+                    }, 
+                    {
+                        "basename": "netlogon.DLL", 
+                        "imgsize": 712704, 
+                        "baseaddr": "0x7fefcf10000", 
+                        "filepath": "C:\\Windows\\system32\\netlogon.DLL"
+                    }, 
+                    {
+                        "basename": "DNSAPI.dll", 
+                        "imgsize": 372736, 
+                        "baseaddr": "0x7fefceb0000", 
+                        "filepath": "C:\\Windows\\system32\\DNSAPI.dll"
+                    }, 
+                    {
+                        "basename": "logoncli.dll", 
+                        "imgsize": 196608, 
+                        "baseaddr": "0x7fefce80000", 
+                        "filepath": "C:\\Windows\\system32\\logoncli.dll"
+                    }, 
+                    {
+                        "basename": "schannel.DLL", 
+                        "imgsize": 356352, 
+                        "baseaddr": "0x7fefce20000", 
+                        "filepath": "C:\\Windows\\system32\\schannel.DLL"
+                    }, 
+                    {
+                        "basename": "CRYPT32.dll", 
+                        "imgsize": 1470464, 
+                        "baseaddr": "0x7fefd8b0000", 
+                        "filepath": "C:\\Windows\\system32\\CRYPT32.dll"
+                    }, 
+                    {
+                        "basename": "wdigest.DLL", 
+                        "imgsize": 221184, 
+                        "baseaddr": "0x7fefcde0000", 
+                        "filepath": "C:\\Windows\\system32\\wdigest.DLL"
+                    }, 
+                    {
+                        "basename": "rsaenh.dll", 
+                        "imgsize": 290816, 
+                        "baseaddr": "0x7fefcd90000", 
+                        "filepath": "C:\\Windows\\system32\\rsaenh.dll"
+                    }, 
+                    {
+                        "basename": "tspkg.DLL", 
+                        "imgsize": 98304, 
+                        "baseaddr": "0x7fefcd70000", 
+                        "filepath": "C:\\Windows\\system32\\tspkg.DLL"
+                    }, 
+                    {
+                        "basename": "pku2u.DLL", 
+                        "imgsize": 282624, 
+                        "baseaddr": "0x7fefcd20000", 
+                        "filepath": "C:\\Windows\\system32\\pku2u.DLL"
+                    }, 
+                    {
+                        "basename": "bcryptprimitives.dll", 
+                        "imgsize": 311296, 
+                        "baseaddr": "0x7fefccd0000", 
+                        "filepath": "C:\\Windows\\system32\\bcryptprimitives.dll"
+                    }, 
+                    {
+                        "basename": "RpcRtRemote.dll", 
+                        "imgsize": 81920, 
+                        "baseaddr": "0x7fefd7e0000", 
+                        "filepath": "C:\\Windows\\system32\\RpcRtRemote.dll"
+                    }, 
+                    {
+                        "basename": "efslsaext.dll", 
+                        "imgsize": 73728, 
+                        "baseaddr": "0x7fefccb0000", 
+                        "filepath": "C:\\Windows\\system32\\efslsaext.dll"
+                    }, 
+                    {
+                        "basename": "scecli.DLL", 
+                        "imgsize": 253952, 
+                        "baseaddr": "0x7fefcc70000", 
+                        "filepath": "C:\\Windows\\system32\\scecli.DLL"
+                    }, 
+                    {
+                        "basename": "credssp.dll", 
+                        "imgsize": 40960, 
+                        "baseaddr": "0x7fefcc60000", 
+                        "filepath": "C:\\Windows\\system32\\credssp.dll"
+                    }, 
+                    {
+                        "basename": "WINSTA.dll", 
+                        "imgsize": 249856, 
+                        "baseaddr": "0x7fefd7a0000", 
+                        "filepath": "C:\\Windows\\system32\\WINSTA.dll"
+                    }, 
+                    {
+                        "basename": "IPHLPAPI.DLL", 
+                        "imgsize": 159744, 
+                        "baseaddr": "0x7fefaff0000", 
+                        "filepath": "C:\\Windows\\system32\\IPHLPAPI.DLL"
+                    }, 
+                    {
+                        "basename": "WINNSI.DLL", 
+                        "imgsize": 45056, 
+                        "baseaddr": "0x7fefafe0000", 
+                        "filepath": "C:\\Windows\\system32\\WINNSI.DLL"
+                    }, 
+                    {
+                        "basename": "netutils.dll", 
+                        "imgsize": 49152, 
+                        "baseaddr": "0x7fefb340000", 
+                        "filepath": "C:\\Windows\\system32\\netutils.dll"
+                    }, 
+                    {
+                        "basename": "USERENV.dll", 
+                        "imgsize": 122880, 
+                        "baseaddr": "0x7fefcb50000", 
+                        "filepath": "C:\\Windows\\system32\\USERENV.dll"
+                    }, 
+                    {
+                        "basename": "profapi.dll", 
+                        "imgsize": 61440, 
+                        "baseaddr": "0x7fefd800000", 
+                        "filepath": "C:\\Windows\\system32\\profapi.dll"
+                    }, 
+                    {
+                        "basename": "wshtcpip.dll", 
+                        "imgsize": 28672, 
+                        "baseaddr": "0x7fefca30000", 
+                        "filepath": "C:\\Windows\\System32\\wshtcpip.dll"
+                    }, 
+                    {
+                        "basename": "monitor-x64.dll", 
+                        "imgsize": 2269184, 
+                        "baseaddr": "0x74470000", 
+                        "filepath": "C:\\tmpagmmpn\\bin\\monitor-x64.dll"
+                    }
+                ], 
+                "time": 0, 
+                "tid": 2280, 
+                "first_seen": 1717617231.28125, 
+                "ppid": 380, 
+                "type": "process"
+            }, 
+            {
+                "process_path": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\10002.exe", 
+                "calls": [
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtAllocateVirtualMemory", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "process_identifier": 2348, 
+                            "region_size": 4096, 
+                            "stack_dep_bypass": 0, 
+                            "stack_pivoted": 0, 
+                            "heap_dep_bypass": 0, 
+                            "protection": 4, 
+                            "process_handle": "0xffffffff", 
+                            "allocation_type": 12288, 
+                            "base_address": "0x00490000"
+                        }, 
+                        "time": 1717617232.00025, 
+                        "tid": 2352, 
+                        "flags": {
+                            "protection": "PAGE_READWRITE", 
+                            "allocation_type": "MEM_COMMIT|MEM_RESERVE"
+                        }
+                    }, 
+                    {
+                        "category": "synchronisation", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "GetSystemTimeAsFileTime", 
+                        "return_value": 0, 
+                        "arguments": {}, 
+                        "time": 1717617232.10925, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "GetSystemInfo", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "processor_count": 2
+                        }, 
+                        "time": 1717617232.10925, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "synchronisation", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtCreateMutant", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "initial_owner": 0, 
+                            "desired_access": "0x001f0001", 
+                            "mutant_name": "", 
+                            "mutant_handle": "0x00000040"
+                        }, 
+                        "time": 1717617232.10925, 
+                        "tid": 2352, 
+                        "flags": {
+                            "desired_access": "STANDARD_RIGHTS_ALL|STANDARD_RIGHTS_REQUIRED|DELETE|READ_CONTROL|WRITE_DAC|WRITE_OWNER|SYNCHRONIZE"
+                        }
+                    }, 
+                    {
+                        "category": "synchronisation", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "GetSystemTimeAsFileTime", 
+                        "return_value": 0, 
+                        "arguments": {}, 
+                        "time": 1717617232.10925, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "registry", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtOpenKey", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "key_handle": "0x00000044", 
+                            "desired_access": "0x02000000", 
+                            "regkey": "HKEY_LOCAL_MACHINE"
+                        }, 
+                        "time": 1717617232.10925, 
+                        "tid": 2352, 
+                        "flags": {
+                            "desired_access": "MAXIMUM_ALLOWED"
+                        }
+                    }, 
+                    {
+                        "category": "registry", 
+                        "status": 0, 
+                        "stacktrace": [], 
+                        "last_error": 0, 
+                        "nt_status": 0, 
+                        "api": "NtOpenKeyEx", 
+                        "return_value": 3221225524, 
+                        "arguments": {
+                            "key_handle": "0x00000000", 
+                            "desired_access": "0x00020019", 
+                            "regkey": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Diagnostics", 
+                            "options": 0
+                        }, 
+                        "time": 1717617232.10925, 
+                        "tid": 2352, 
+                        "flags": {
+                            "desired_access": "READ_CONTROL"
+                        }
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "LdrLoadDll", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "basename": "advapi32", 
+                            "module_address": "0x76340000", 
+                            "flags": 0, 
+                            "module_name": "advapi32.dll", 
+                            "stack_pivoted": 0
+                        }, 
+                        "time": 1717617232.10925, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "LdrLoadDll", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "basename": "gdi32", 
+                            "module_address": "0x77450000", 
+                            "flags": 0, 
+                            "module_name": "gdi32.dll", 
+                            "stack_pivoted": 0
+                        }, 
+                        "time": 1717617232.10925, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "LdrGetProcedureAddress", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "ordinal": 0, 
+                            "module": "GDI32", 
+                            "module_address": "0x77450000", 
+                            "function_address": "0x774699a3", 
+                            "function_name": "GetCharABCWidthsI"
+                        }, 
+                        "time": 1717617232.10925, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "synchronisation", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "GetSystemTimeAsFileTime", 
+                        "return_value": 0, 
+                        "arguments": {}, 
+                        "time": 1717617232.10925, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtQuerySystemInformation", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "information_class": 0
+                        }, 
+                        "time": 1717617232.10925, 
+                        "tid": 2352, 
+                        "flags": {
+                            "information_class": "SystemBasicInformation"
+                        }
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtProtectVirtualMemory", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "process_identifier": 2348, 
+                            "stack_dep_bypass": 0, 
+                            "stack_pivoted": 0, 
+                            "heap_dep_bypass": 0, 
+                            "length": 4096, 
+                            "protection": 2, 
+                            "process_handle": "0xffffffff", 
+                            "base_address": "0x77b91000"
+                        }, 
+                        "time": 1717617232.10925, 
+                        "tid": 2352, 
+                        "flags": {
+                            "protection": "PAGE_READONLY"
+                        }
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtProtectVirtualMemory", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "process_identifier": 2348, 
+                            "stack_dep_bypass": 0, 
+                            "stack_pivoted": 0, 
+                            "heap_dep_bypass": 0, 
+                            "length": 4096, 
+                            "protection": 4, 
+                            "process_handle": "0xffffffff", 
+                            "base_address": "0x75690000"
+                        }, 
+                        "time": 1717617232.10925, 
+                        "tid": 2352, 
+                        "flags": {
+                            "protection": "PAGE_READWRITE"
+                        }
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtProtectVirtualMemory", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "process_identifier": 2348, 
+                            "stack_dep_bypass": 0, 
+                            "stack_pivoted": 0, 
+                            "heap_dep_bypass": 0, 
+                            "length": 4096, 
+                            "protection": 32, 
+                            "process_handle": "0xffffffff", 
+                            "base_address": "0x75690000"
+                        }, 
+                        "time": 1717617232.10925, 
+                        "tid": 2352, 
+                        "flags": {
+                            "protection": "PAGE_EXECUTE_READ"
+                        }
+                    }, 
+                    {
+                        "category": "file", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "GetSystemDirectoryW", 
+                        "return_value": 19, 
+                        "arguments": {
+                            "dirpath": "C:\\Windows\\system32"
+                        }, 
+                        "time": 1717617232.10925, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 0, 
+                        "stacktrace": [], 
+                        "last_error": 0, 
+                        "nt_status": -1073741772, 
+                        "api": "LdrGetDllHandle", 
+                        "return_value": 3221225781, 
+                        "arguments": {
+                            "module_name": "C:\\Windows\\system32\\IMM32.DLL", 
+                            "stack_pivoted": 0, 
+                            "module_address": "0x00000000"
+                        }, 
+                        "time": 1717617232.10925, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 0, 
+                        "stacktrace": [], 
+                        "last_error": 0, 
+                        "nt_status": -1073741772, 
+                        "api": "LdrGetDllHandle", 
+                        "return_value": 3221225781, 
+                        "arguments": {
+                            "module_name": "C:\\Windows\\system32\\IMM32.DLL", 
+                            "stack_pivoted": 0, 
+                            "module_address": "0x00000000"
+                        }, 
+                        "time": 1717617232.10925, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "LdrLoadDll", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "basename": "IMM32", 
+                            "module_address": "0x75c40000", 
+                            "flags": 0, 
+                            "module_name": "C:\\Windows\\system32\\IMM32.DLL", 
+                            "stack_pivoted": 0
+                        }, 
+                        "time": 1717617232.10925, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "file", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "GetSystemDirectoryW", 
+                        "return_value": 19, 
+                        "arguments": {
+                            "dirpath": "C:\\Windows\\system32"
+                        }, 
+                        "time": 1717617232.10925, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "LdrGetDllHandle", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "module_name": "C:\\Windows\\system32\\IMM32.DLL", 
+                            "stack_pivoted": 0, 
+                            "module_address": "0x75c40000"
+                        }, 
+                        "time": 1717617232.10925, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "registry", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtOpenKey", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "key_handle": "0x00000050", 
+                            "desired_access": "0x00020019", 
+                            "regkey": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows NT\\CurrentVersion\\GRE_Initialize"
+                        }, 
+                        "time": 1717617232.10925, 
+                        "tid": 2352, 
+                        "flags": {
+                            "desired_access": "READ_CONTROL"
+                        }
+                    }, 
+                    {
+                        "category": "registry", 
+                        "status": 0, 
+                        "stacktrace": [], 
+                        "last_error": 126, 
+                        "nt_status": -1073741515, 
+                        "api": "NtQueryValueKey", 
+                        "return_value": 3221225524, 
+                        "arguments": {
+                            "key_handle": "0x00000050", 
+                            "key_name": "", 
+                            "value": "", 
+                            "reg_type": 0, 
+                            "information_class": 2, 
+                            "regkey": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\GRE_Initialize\\DisableMetaFiles"
+                        }, 
+                        "time": 1717617232.10925, 
+                        "tid": 2352, 
+                        "flags": {
+                            "reg_type": "REG_NONE", 
+                            "information_class": "KeyValuePartialInformation"
+                        }
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtClose", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "handle": "0x00000050"
+                        }, 
+                        "time": 1717617232.10925, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "LdrGetDllHandle", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "module_name": "LPK.DLL", 
+                            "stack_pivoted": 0, 
+                            "module_address": "0x764c0000"
+                        }, 
+                        "time": 1717617232.10925, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "LdrGetProcedureAddress", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "ordinal": 0, 
+                            "module": "LPK", 
+                            "module_address": "0x764c0000", 
+                            "function_address": "0x764c48a0", 
+                            "function_name": "LpkTabbedTextOut"
+                        }, 
+                        "time": 1717617232.10925, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "LdrGetProcedureAddress", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "ordinal": 0, 
+                            "module": "LPK", 
+                            "module_address": "0x764c0000", 
+                            "function_address": "0x764c1430", 
+                            "function_name": "LpkPSMTextOut"
+                        }, 
+                        "time": 1717617232.10925, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "LdrGetProcedureAddress", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "ordinal": 0, 
+                            "module": "LPK", 
+                            "module_address": "0x764c0000", 
+                            "function_address": "0x764c13d0", 
+                            "function_name": "LpkDrawTextEx"
+                        }, 
+                        "time": 1717617232.10925, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "LdrGetProcedureAddress", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "ordinal": 0, 
+                            "module": "LPK", 
+                            "module_address": "0x764c0000", 
+                            "function_address": "0x764c7000", 
+                            "function_name": "LpkEditControl"
+                        }, 
+                        "time": 1717617232.10925, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtClose", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "handle": "0x00000064"
+                        }, 
+                        "time": 1717617232.10925, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtClose", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "handle": "0x00000060"
+                        }, 
+                        "time": 1717617232.10925, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "registry", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtOpenKeyEx", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "key_handle": "0x00000060", 
+                            "desired_access": "0x00020019", 
+                            "regkey": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Windows", 
+                            "options": 0
+                        }, 
+                        "time": 1717617232.10925, 
+                        "tid": 2352, 
+                        "flags": {
+                            "desired_access": "READ_CONTROL"
+                        }
+                    }, 
+                    {
+                        "category": "registry", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtQueryValueKey", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "key_handle": "0x00000060", 
+                            "key_name": "", 
+                            "value": 0, 
+                            "reg_type": 4, 
+                            "information_class": 2, 
+                            "regkey": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows NT\\CurrentVersion\\Windows\\LoadAppInit_DLLs"
+                        }, 
+                        "time": 1717617232.10925, 
+                        "tid": 2352, 
+                        "flags": {
+                            "reg_type": "REG_DWORD", 
+                            "information_class": "KeyValuePartialInformation"
+                        }
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtClose", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "handle": "0x00000060"
+                        }, 
+                        "time": 1717617232.10925, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "LdrLoadDll", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "basename": "user32", 
+                            "module_address": "0x75680000", 
+                            "flags": 0, 
+                            "module_name": "user32.dll", 
+                            "stack_pivoted": 0
+                        }, 
+                        "time": 1717617232.10925, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "registry", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtOpenKeyEx", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "key_handle": "0x00000060", 
+                            "desired_access": "0x00020019", 
+                            "regkey": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\OLE", 
+                            "options": 0
+                        }, 
+                        "time": 1717617232.12525, 
+                        "tid": 2352, 
+                        "flags": {
+                            "desired_access": "READ_CONTROL"
+                        }
+                    }, 
+                    {
+                        "category": "registry", 
+                        "status": 0, 
+                        "stacktrace": [], 
+                        "last_error": 5, 
+                        "nt_status": 0, 
+                        "api": "NtQueryValueKey", 
+                        "return_value": 3221225524, 
+                        "arguments": {
+                            "key_handle": "0x00000060", 
+                            "key_name": "", 
+                            "value": "", 
+                            "reg_type": 0, 
+                            "information_class": 2, 
+                            "regkey": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\OLE\\PageAllocatorUseSystemHeap"
+                        }, 
+                        "time": 1717617232.12525, 
+                        "tid": 2352, 
+                        "flags": {
+                            "reg_type": "REG_NONE", 
+                            "information_class": "KeyValuePartialInformation"
+                        }
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtClose", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "handle": "0x00000060"
+                        }, 
+                        "time": 1717617232.12525, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "registry", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtOpenKeyEx", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "key_handle": "0x00000060", 
+                            "desired_access": "0x00020019", 
+                            "regkey": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\OLE", 
+                            "options": 0
+                        }, 
+                        "time": 1717617232.12525, 
+                        "tid": 2352, 
+                        "flags": {
+                            "desired_access": "READ_CONTROL"
+                        }
+                    }, 
+                    {
+                        "category": "registry", 
+                        "status": 0, 
+                        "stacktrace": [], 
+                        "last_error": 5, 
+                        "nt_status": 0, 
+                        "api": "NtQueryValueKey", 
+                        "return_value": 3221225524, 
+                        "arguments": {
+                            "key_handle": "0x00000060", 
+                            "key_name": "", 
+                            "value": "", 
+                            "reg_type": 0, 
+                            "information_class": 2, 
+                            "regkey": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\OLE\\PageAllocatorSystemHeapIsPrivate"
+                        }, 
+                        "time": 1717617232.12525, 
+                        "tid": 2352, 
+                        "flags": {
+                            "reg_type": "REG_NONE", 
+                            "information_class": "KeyValuePartialInformation"
+                        }
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtClose", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "handle": "0x00000060"
+                        }, 
+                        "time": 1717617232.12525, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "GetSystemInfo", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "processor_count": 2
+                        }, 
+                        "time": 1717617232.12525, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "LdrGetDllHandle", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "module_name": "rpcrt4.dll", 
+                            "stack_pivoted": 0, 
+                            "module_address": "0x75e40000"
+                        }, 
+                        "time": 1717617232.12525, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "LdrGetProcedureAddress", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "ordinal": 0, 
+                            "module": "RPCRT4", 
+                            "module_address": "0x75e40000", 
+                            "function_address": "0x75e73bee", 
+                            "function_name": "I_RpcInitNdrImports"
+                        }, 
+                        "time": 1717617232.12525, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "registry", 
+                        "status": 0, 
+                        "stacktrace": [], 
+                        "last_error": 0, 
+                        "nt_status": -1073741772, 
+                        "api": "NtOpenKeyEx", 
+                        "return_value": 3221225524, 
+                        "arguments": {
+                            "key_handle": "0x00000000", 
+                            "desired_access": "0x00020019", 
+                            "regkey": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\OLE\\Tracing", 
+                            "options": 0
+                        }, 
+                        "time": 1717617232.12525, 
+                        "tid": 2352, 
+                        "flags": {
+                            "desired_access": "READ_CONTROL"
+                        }
+                    }, 
+                    {
+                        "category": "file", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtOpenDirectoryObject", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "desired_access": "0x0000000f", 
+                            "dirpath_r": "\\Sessions\\1\\BaseNamedObjects", 
+                            "dirpath": "\\Sessions\\1\\BaseNamedObjects", 
+                            "directory_handle": "0x0000007c"
+                        }, 
+                        "time": 1717617232.12525, 
+                        "tid": 2352, 
+                        "flags": {
+                            "desired_access": ""
+                        }
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "LdrLoadDll", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "basename": "ole32", 
+                            "module_address": "0x759a0000", 
+                            "flags": 0, 
+                            "module_name": "ole32.dll", 
+                            "stack_pivoted": 0
+                        }, 
+                        "time": 1717617232.12525, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "GetSystemInfo", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "processor_count": 2
+                        }, 
+                        "time": 1717617232.12525, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtAllocateVirtualMemory", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "process_identifier": 2348, 
+                            "region_size": 1179648, 
+                            "stack_dep_bypass": 0, 
+                            "stack_pivoted": 0, 
+                            "heap_dep_bypass": 0, 
+                            "protection": 4, 
+                            "process_handle": "0xffffffff", 
+                            "allocation_type": 8192, 
+                            "base_address": "0x00830000"
+                        }, 
+                        "time": 1717617232.12525, 
+                        "tid": 2352, 
+                        "flags": {
+                            "protection": "PAGE_READWRITE", 
+                            "allocation_type": "MEM_RESERVE"
+                        }
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtFreeVirtualMemory", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "free_type": 32768, 
+                            "process_identifier": 2348, 
+                            "process_handle": "0xffffffff", 
+                            "base_address": "0x00830000", 
+                            "size": 917504
+                        }, 
+                        "time": 1717617232.12525, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtAllocateVirtualMemory", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "process_identifier": 2348, 
+                            "region_size": 4096, 
+                            "stack_dep_bypass": 0, 
+                            "stack_pivoted": 0, 
+                            "heap_dep_bypass": 0, 
+                            "protection": 4, 
+                            "process_handle": "0xffffffff", 
+                            "allocation_type": 4096, 
+                            "base_address": "0x00910000"
+                        }, 
+                        "time": 1717617232.12525, 
+                        "tid": 2352, 
+                        "flags": {
+                            "protection": "PAGE_READWRITE", 
+                            "allocation_type": "MEM_COMMIT"
+                        }
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "LdrLoadDll", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "basename": "ws2_32", 
+                            "module_address": "0x76400000", 
+                            "flags": 0, 
+                            "module_name": "ws2_32.dll", 
+                            "stack_pivoted": 0
+                        }, 
+                        "time": 1717617232.12525, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "synchronisation", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "GetSystemTimeAsFileTime", 
+                        "return_value": 0, 
+                        "arguments": {}, 
+                        "time": 1717617232.14025, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "registry", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtOpenKeyEx", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "key_handle": "0x00000080", 
+                            "desired_access": "0x00020019", 
+                            "regkey": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\crypt32", 
+                            "options": 0
+                        }, 
+                        "time": 1717617232.14025, 
+                        "tid": 2352, 
+                        "flags": {
+                            "desired_access": "READ_CONTROL"
+                        }
+                    }, 
+                    {
+                        "category": "registry", 
+                        "status": 0, 
+                        "stacktrace": [], 
+                        "last_error": 203, 
+                        "nt_status": 0, 
+                        "api": "NtQueryValueKey", 
+                        "return_value": 3221225524, 
+                        "arguments": {
+                            "key_handle": "0x00000080", 
+                            "key_name": "", 
+                            "value": "", 
+                            "reg_type": 0, 
+                            "information_class": 2, 
+                            "regkey": "HKEY_LOCAL_MACHINE\\SYSTEM\\ControlSet001\\services\\crypt32\\DebugHeapFlags"
+                        }, 
+                        "time": 1717617232.14025, 
+                        "tid": 2352, 
+                        "flags": {
+                            "reg_type": "REG_NONE", 
+                            "information_class": "KeyValuePartialInformation"
+                        }
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtClose", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "handle": "0x00000080"
+                        }, 
+                        "time": 1717617232.14025, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "registry", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "RegOpenKeyExA", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "access": "0x00000001", 
+                            "base_handle": "0x80000002", 
+                            "key_handle": "0x00000080", 
+                            "regkey": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings", 
+                            "regkey_r": "Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings", 
+                            "options": 0
+                        }, 
+                        "time": 1717617232.14025, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "registry", 
+                        "status": 0, 
+                        "stacktrace": [], 
+                        "last_error": 203, 
+                        "nt_status": -1073741772, 
+                        "api": "RegQueryValueExA", 
+                        "return_value": 2, 
+                        "arguments": {
+                            "key_handle": "0x00000080", 
+                            "value": "", 
+                            "regkey_r": "DisableImprovedZoneCheck", 
+                            "reg_type": 0, 
+                            "regkey": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\DisableImprovedZoneCheck"
+                        }, 
+                        "time": 1717617232.14025, 
+                        "tid": 2352, 
+                        "flags": {
+                            "reg_type": "REG_NONE"
+                        }
+                    }, 
+                    {
+                        "category": "registry", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "RegCloseKey", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "key_handle": "0x00000080"
+                        }, 
+                        "time": 1717617232.14025, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "registry", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtOpenKeyEx", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "key_handle": "0x00000080", 
+                            "desired_access": "0x00000001", 
+                            "regkey": "HKEY_LOCAL_MACHINE\\Software\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings", 
+                            "options": 0
+                        }, 
+                        "time": 1717617232.14025, 
+                        "tid": 2352, 
+                        "flags": {
+                            "desired_access": ""
+                        }
+                    }, 
+                    {
+                        "category": "registry", 
+                        "status": 0, 
+                        "stacktrace": [], 
+                        "last_error": 0, 
+                        "nt_status": 0, 
+                        "api": "NtQueryValueKey", 
+                        "return_value": 3221225524, 
+                        "arguments": {
+                            "key_handle": "0x00000080", 
+                            "key_name": "", 
+                            "value": "", 
+                            "reg_type": 0, 
+                            "information_class": 2, 
+                            "regkey": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Security_HKLM_only"
+                        }, 
+                        "time": 1717617232.14025, 
+                        "tid": 2352, 
+                        "flags": {
+                            "reg_type": "REG_NONE", 
+                            "information_class": "KeyValuePartialInformation"
+                        }
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtClose", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "handle": "0x00000080"
+                        }, 
+                        "time": 1717617232.14025, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtClose", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "handle": "0x00000080"
+                        }, 
+                        "time": 1717617232.14025, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtClose", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "handle": "0x0000008c"
+                        }, 
+                        "time": 1717617232.14025, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "LdrLoadDll", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "basename": "wininet", 
+                            "module_address": "0x75cb0000", 
+                            "flags": 0, 
+                            "module_name": "wininet.dll", 
+                            "stack_pivoted": 0
+                        }, 
+                        "time": 1717617232.14025, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtAllocateVirtualMemory", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "process_identifier": 2348, 
+                            "region_size": 4096, 
+                            "stack_dep_bypass": 0, 
+                            "stack_pivoted": 0, 
+                            "heap_dep_bypass": 0, 
+                            "protection": 4, 
+                            "process_handle": "0xffffffff", 
+                            "allocation_type": 12288, 
+                            "base_address": "0x00830000"
+                        }, 
+                        "time": 1717617232.14025, 
+                        "tid": 2352, 
+                        "flags": {
+                            "protection": "PAGE_READWRITE", 
+                            "allocation_type": "MEM_COMMIT|MEM_RESERVE"
+                        }
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtAllocateVirtualMemory", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "process_identifier": 2348, 
+                            "region_size": 4096, 
+                            "stack_dep_bypass": 0, 
+                            "stack_pivoted": 0, 
+                            "heap_dep_bypass": 0, 
+                            "protection": 4, 
+                            "process_handle": "0xffffffff", 
+                            "allocation_type": 12288, 
+                            "base_address": "0x00840000"
+                        }, 
+                        "time": 1717617232.14025, 
+                        "tid": 2352, 
+                        "flags": {
+                            "protection": "PAGE_READWRITE", 
+                            "allocation_type": "MEM_COMMIT|MEM_RESERVE"
+                        }
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtFreeVirtualMemory", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "free_type": 16384, 
+                            "process_identifier": 2348, 
+                            "process_handle": "0xffffffff", 
+                            "base_address": "0x00830000", 
+                            "size": 4096
+                        }, 
+                        "time": 1717617232.14025, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtFreeVirtualMemory", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "free_type": 32768, 
+                            "process_identifier": 2348, 
+                            "process_handle": "0xffffffff", 
+                            "base_address": "0x00830000", 
+                            "size": 4096
+                        }, 
+                        "time": 1717617232.14025, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtAllocateVirtualMemory", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "process_identifier": 2348, 
+                            "region_size": 4096, 
+                            "stack_dep_bypass": 0, 
+                            "stack_pivoted": 0, 
+                            "heap_dep_bypass": 0, 
+                            "protection": 4, 
+                            "process_handle": "0xffffffff", 
+                            "allocation_type": 12288, 
+                            "base_address": "0x00830000"
+                        }, 
+                        "time": 1717617232.14025, 
+                        "tid": 2352, 
+                        "flags": {
+                            "protection": "PAGE_READWRITE", 
+                            "allocation_type": "MEM_COMMIT|MEM_RESERVE"
+                        }
+                    }, 
+                    {
+                        "category": "file", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtCreateFile", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "create_disposition": 1, 
+                            "file_handle": "0x0000008c", 
+                            "filepath": "C:\\Users\\Administrator\\AppData\\Local\\Temp", 
+                            "desired_access": "0x00100001", 
+                            "file_attributes": 128, 
+                            "filepath_r": "\\??\\C:\\Users\\Administrator\\AppData\\Local\\Temp", 
+                            "create_options": 0, 
+                            "status_info": 1, 
+                            "share_access": 1
+                        }, 
+                        "time": 1717617232.14025, 
+                        "tid": 2352, 
+                        "flags": {
+                            "create_disposition": "FILE_OPEN", 
+                            "desired_access": "FILE_READ_DATA|FILE_LIST_DIRECTORY|SYNCHRONIZE", 
+                            "create_options": "", 
+                            "file_attributes": "FILE_ATTRIBUTE_NORMAL", 
+                            "status_info": "FILE_OPENED", 
+                            "share_access": "FILE_SHARE_READ"
+                        }
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtClose", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "handle": "0x0000008c"
+                        }, 
+                        "time": 1717617232.14025, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtFreeVirtualMemory", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "free_type": 16384, 
+                            "process_identifier": 2348, 
+                            "process_handle": "0xffffffff", 
+                            "base_address": "0x00830000", 
+                            "size": 4096
+                        }, 
+                        "time": 1717617232.14025, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtFreeVirtualMemory", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "free_type": 32768, 
+                            "process_identifier": 2348, 
+                            "process_handle": "0xffffffff", 
+                            "base_address": "0x00830000", 
+                            "size": 4096
+                        }, 
+                        "time": 1717617232.14025, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtAllocateVirtualMemory", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "process_identifier": 2348, 
+                            "region_size": 4096, 
+                            "stack_dep_bypass": 0, 
+                            "stack_pivoted": 0, 
+                            "heap_dep_bypass": 0, 
+                            "protection": 4, 
+                            "process_handle": "0xffffffff", 
+                            "allocation_type": 12288, 
+                            "base_address": "0x00830000"
+                        }, 
+                        "time": 1717617232.14025, 
+                        "tid": 2352, 
+                        "flags": {
+                            "protection": "PAGE_READWRITE", 
+                            "allocation_type": "MEM_COMMIT|MEM_RESERVE"
+                        }
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtAllocateVirtualMemory", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "process_identifier": 2348, 
+                            "region_size": 4096, 
+                            "stack_dep_bypass": 0, 
+                            "stack_pivoted": 0, 
+                            "heap_dep_bypass": 0, 
+                            "protection": 4, 
+                            "process_handle": "0xffffffff", 
+                            "allocation_type": 12288, 
+                            "base_address": "0x00850000"
+                        }, 
+                        "time": 1717617232.14025, 
+                        "tid": 2352, 
+                        "flags": {
+                            "protection": "PAGE_READWRITE", 
+                            "allocation_type": "MEM_COMMIT|MEM_RESERVE"
+                        }
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtAllocateVirtualMemory", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "process_identifier": 2348, 
+                            "region_size": 4096, 
+                            "stack_dep_bypass": 0, 
+                            "stack_pivoted": 0, 
+                            "heap_dep_bypass": 0, 
+                            "protection": 4, 
+                            "process_handle": "0xffffffff", 
+                            "allocation_type": 12288, 
+                            "base_address": "0x00860000"
+                        }, 
+                        "time": 1717617232.14025, 
+                        "tid": 2352, 
+                        "flags": {
+                            "protection": "PAGE_READWRITE", 
+                            "allocation_type": "MEM_COMMIT|MEM_RESERVE"
+                        }
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtAllocateVirtualMemory", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "process_identifier": 2348, 
+                            "region_size": 4096, 
+                            "stack_dep_bypass": 0, 
+                            "stack_pivoted": 0, 
+                            "heap_dep_bypass": 0, 
+                            "protection": 4, 
+                            "process_handle": "0xffffffff", 
+                            "allocation_type": 12288, 
+                            "base_address": "0x00870000"
+                        }, 
+                        "time": 1717617232.14025, 
+                        "tid": 2352, 
+                        "flags": {
+                            "protection": "PAGE_READWRITE", 
+                            "allocation_type": "MEM_COMMIT|MEM_RESERVE"
+                        }
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtFreeVirtualMemory", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "free_type": 16384, 
+                            "process_identifier": 2348, 
+                            "process_handle": "0xffffffff", 
+                            "base_address": "0x00840000", 
+                            "size": 4096
+                        }, 
+                        "time": 1717617232.14025, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtFreeVirtualMemory", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "free_type": 32768, 
+                            "process_identifier": 2348, 
+                            "process_handle": "0xffffffff", 
+                            "base_address": "0x00840000", 
+                            "size": 4096
+                        }, 
+                        "time": 1717617232.14025, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtFreeVirtualMemory", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "free_type": 16384, 
+                            "process_identifier": 2348, 
+                            "process_handle": "0xffffffff", 
+                            "base_address": "0x00830000", 
+                            "size": 4096
+                        }, 
+                        "time": 1717617232.14025, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtFreeVirtualMemory", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "free_type": 32768, 
+                            "process_identifier": 2348, 
+                            "process_handle": "0xffffffff", 
+                            "base_address": "0x00830000", 
+                            "size": 4096
+                        }, 
+                        "time": 1717617232.14025, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtFreeVirtualMemory", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "free_type": 16384, 
+                            "process_identifier": 2348, 
+                            "process_handle": "0xffffffff", 
+                            "base_address": "0x00850000", 
+                            "size": 4096
+                        }, 
+                        "time": 1717617232.14025, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtFreeVirtualMemory", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "free_type": 32768, 
+                            "process_identifier": 2348, 
+                            "process_handle": "0xffffffff", 
+                            "base_address": "0x00850000", 
+                            "size": 4096
+                        }, 
+                        "time": 1717617232.14025, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtFreeVirtualMemory", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "free_type": 16384, 
+                            "process_identifier": 2348, 
+                            "process_handle": "0xffffffff", 
+                            "base_address": "0x00860000", 
+                            "size": 4096
+                        }, 
+                        "time": 1717617232.14025, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtFreeVirtualMemory", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "free_type": 32768, 
+                            "process_identifier": 2348, 
+                            "process_handle": "0xffffffff", 
+                            "base_address": "0x00860000", 
+                            "size": 4096
+                        }, 
+                        "time": 1717617232.14025, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtAllocateVirtualMemory", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "process_identifier": 2348, 
+                            "region_size": 4096, 
+                            "stack_dep_bypass": 0, 
+                            "stack_pivoted": 0, 
+                            "heap_dep_bypass": 0, 
+                            "protection": 4, 
+                            "process_handle": "0xffffffff", 
+                            "allocation_type": 12288, 
+                            "base_address": "0x00830000"
+                        }, 
+                        "time": 1717617232.14025, 
+                        "tid": 2352, 
+                        "flags": {
+                            "protection": "PAGE_READWRITE", 
+                            "allocation_type": "MEM_COMMIT|MEM_RESERVE"
+                        }
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtFreeVirtualMemory", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "free_type": 16384, 
+                            "process_identifier": 2348, 
+                            "process_handle": "0xffffffff", 
+                            "base_address": "0x00870000", 
+                            "size": 4096
+                        }, 
+                        "time": 1717617232.14025, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtFreeVirtualMemory", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "free_type": 32768, 
+                            "process_identifier": 2348, 
+                            "process_handle": "0xffffffff", 
+                            "base_address": "0x00870000", 
+                            "size": 4096
+                        }, 
+                        "time": 1717617232.14025, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "LdrLoadDll", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "basename": "CRYPTSP", 
+                            "module_address": "0x740d0000", 
+                            "flags": 0, 
+                            "module_name": "CRYPTSP.dll", 
+                            "stack_pivoted": 0
+                        }, 
+                        "time": 1717617232.14025, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "LdrGetProcedureAddress", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "ordinal": 0, 
+                            "module": "CRYPTSP", 
+                            "module_address": "0x740d0000", 
+                            "function_address": "0x740d63e8", 
+                            "function_name": "CryptAcquireContextW"
+                        }, 
+                        "time": 1717617232.15625, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "crypto", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "CryptAcquireContextW", 
+                        "return_value": 1, 
+                        "arguments": {
+                            "crypto_handle": "0x0024bc18", 
+                            "container": "", 
+                            "flags": 4026531840, 
+                            "provider": "", 
+                            "provider_type": 1
+                        }, 
+                        "time": 1717617232.15625, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "LdrGetProcedureAddress", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "ordinal": 0, 
+                            "module": "CRYPTSP", 
+                            "module_address": "0x740d0000", 
+                            "function_address": "0x740d556b", 
+                            "function_name": "CryptCreateHash"
+                        }, 
+                        "time": 1717617232.15625, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "crypto", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "CryptCreateHash", 
+                        "return_value": 1, 
+                        "arguments": {
+                            "crypto_handle": "0x00000000", 
+                            "hash_handle": "0x00220678", 
+                            "algorithm_identifier": "0x00008003", 
+                            "provider_handle": "0x0024bc18", 
+                            "flags": 0
+                        }, 
+                        "time": 1717617232.15625, 
+                        "tid": 2352, 
+                        "flags": {
+                            "algorithm_identifier": "CALG_MD5"
+                        }
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "LdrGetProcedureAddress", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "ordinal": 0, 
+                            "module": "CRYPTSP", 
+                            "module_address": "0x740d0000", 
+                            "function_address": "0x740d57b2", 
+                            "function_name": "CryptHashData"
+                        }, 
+                        "time": 1717617232.15625, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "crypto", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "CryptHashData", 
+                        "return_value": 1, 
+                        "arguments": {
+                            "buffer": "Z\u0000J\u0000B\u0000H\u0000D\u0000G\u0000X\u0000B\u0000C\u0000N\u0000I\u0000n\u0000t\u0000e\u0000l\u00006\u00004\u0000 \u0000F\u0000a\u0000m\u0000i\u0000l\u0000y\u0000 \u00006\u0000 \u0000M\u0000o\u0000d\u0000e\u0000l\u0000 \u00007\u00008\u0000 \u0000S\u0000t\u0000e\u0000p\u0000p\u0000i\u0000n\u0000g\u0000 \u00003\u0000,\u0000 \u0000G\u0000e\u0000n\u0000u\u0000i\u0000n\u0000e\u0000I\u0000n\u0000t\u0000e\u0000l\u00006\u00004\u0000e\u00000\u00003\u00006\u00001\u0000", 
+                            "flags": 0, 
+                            "hash_handle": "0x00220678"
+                        }, 
+                        "time": 1717617232.15625, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "LdrGetProcedureAddress", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "ordinal": 0, 
+                            "module": "CRYPTSP", 
+                            "module_address": "0x740d0000", 
+                            "function_address": "0x740d5ecc", 
+                            "function_name": "CryptGetHashParam"
+                        }, 
+                        "time": 1717617232.15625, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtAllocateVirtualMemory", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "process_identifier": 2348, 
+                            "region_size": 4096, 
+                            "stack_dep_bypass": 0, 
+                            "stack_pivoted": 0, 
+                            "heap_dep_bypass": 0, 
+                            "protection": 4, 
+                            "process_handle": "0xffffffff", 
+                            "allocation_type": 12288, 
+                            "base_address": "0x00840000"
+                        }, 
+                        "time": 1717617232.15625, 
+                        "tid": 2352, 
+                        "flags": {
+                            "protection": "PAGE_READWRITE", 
+                            "allocation_type": "MEM_COMMIT|MEM_RESERVE"
+                        }
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "LdrGetProcedureAddress", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "ordinal": 0, 
+                            "module": "CRYPTSP", 
+                            "module_address": "0x740d0000", 
+                            "function_address": "0x740d5985", 
+                            "function_name": "CryptDestroyHash"
+                        }, 
+                        "time": 1717617232.15625, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "LdrGetProcedureAddress", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "ordinal": 0, 
+                            "module": "CRYPTSP", 
+                            "module_address": "0x740d0000", 
+                            "function_address": "0x740d2ef0", 
+                            "function_name": "CryptReleaseContext"
+                        }, 
+                        "time": 1717617232.15625, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtAllocateVirtualMemory", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "process_identifier": 2348, 
+                            "region_size": 4096, 
+                            "stack_dep_bypass": 0, 
+                            "stack_pivoted": 0, 
+                            "heap_dep_bypass": 0, 
+                            "protection": 4, 
+                            "process_handle": "0xffffffff", 
+                            "allocation_type": 12288, 
+                            "base_address": "0x00850000"
+                        }, 
+                        "time": 1717617232.15625, 
+                        "tid": 2352, 
+                        "flags": {
+                            "protection": "PAGE_READWRITE", 
+                            "allocation_type": "MEM_COMMIT|MEM_RESERVE"
+                        }
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtFreeVirtualMemory", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "free_type": 16384, 
+                            "process_identifier": 2348, 
+                            "process_handle": "0xffffffff", 
+                            "base_address": "0x00840000", 
+                            "size": 4096
+                        }, 
+                        "time": 1717617232.15625, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtFreeVirtualMemory", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "free_type": 32768, 
+                            "process_identifier": 2348, 
+                            "process_handle": "0xffffffff", 
+                            "base_address": "0x00840000", 
+                            "size": 4096
+                        }, 
+                        "time": 1717617232.15625, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtFreeVirtualMemory", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "free_type": 16384, 
+                            "process_identifier": 2348, 
+                            "process_handle": "0xffffffff", 
+                            "base_address": "0x00830000", 
+                            "size": 4096
+                        }, 
+                        "time": 1717617232.15625, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtFreeVirtualMemory", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "free_type": 32768, 
+                            "process_identifier": 2348, 
+                            "process_handle": "0xffffffff", 
+                            "base_address": "0x00830000", 
+                            "size": 4096
+                        }, 
+                        "time": 1717617232.15625, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtAllocateVirtualMemory", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "process_identifier": 2348, 
+                            "region_size": 4096, 
+                            "stack_dep_bypass": 0, 
+                            "stack_pivoted": 0, 
+                            "heap_dep_bypass": 0, 
+                            "protection": 4, 
+                            "process_handle": "0xffffffff", 
+                            "allocation_type": 12288, 
+                            "base_address": "0x00830000"
+                        }, 
+                        "time": 1717617232.15625, 
+                        "tid": 2352, 
+                        "flags": {
+                            "protection": "PAGE_READWRITE", 
+                            "allocation_type": "MEM_COMMIT|MEM_RESERVE"
+                        }
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtFreeVirtualMemory", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "free_type": 16384, 
+                            "process_identifier": 2348, 
+                            "process_handle": "0xffffffff", 
+                            "base_address": "0x00830000", 
+                            "size": 4096
+                        }, 
+                        "time": 1717617232.15625, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtFreeVirtualMemory", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "free_type": 32768, 
+                            "process_identifier": 2348, 
+                            "process_handle": "0xffffffff", 
+                            "base_address": "0x00830000", 
+                            "size": 4096
+                        }, 
+                        "time": 1717617232.15625, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtFreeVirtualMemory", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "free_type": 16384, 
+                            "process_identifier": 2348, 
+                            "process_handle": "0xffffffff", 
+                            "base_address": "0x00850000", 
+                            "size": 4096
+                        }, 
+                        "time": 1717617232.15625, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtFreeVirtualMemory", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "free_type": 32768, 
+                            "process_identifier": 2348, 
+                            "process_handle": "0xffffffff", 
+                            "base_address": "0x00850000", 
+                            "size": 4096
+                        }, 
+                        "time": 1717617232.15625, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtAllocateVirtualMemory", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "process_identifier": 2348, 
+                            "region_size": 4096, 
+                            "stack_dep_bypass": 0, 
+                            "stack_pivoted": 0, 
+                            "heap_dep_bypass": 0, 
+                            "protection": 4, 
+                            "process_handle": "0xffffffff", 
+                            "allocation_type": 12288, 
+                            "base_address": "0x00830000"
+                        }, 
+                        "time": 1717617232.15625, 
+                        "tid": 2352, 
+                        "flags": {
+                            "protection": "PAGE_READWRITE", 
+                            "allocation_type": "MEM_COMMIT|MEM_RESERVE"
+                        }
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtAllocateVirtualMemory", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "process_identifier": 2348, 
+                            "region_size": 4096, 
+                            "stack_dep_bypass": 0, 
+                            "stack_pivoted": 0, 
+                            "heap_dep_bypass": 0, 
+                            "protection": 4, 
+                            "process_handle": "0xffffffff", 
+                            "allocation_type": 12288, 
+                            "base_address": "0x00840000"
+                        }, 
+                        "time": 1717617232.15625, 
+                        "tid": 2352, 
+                        "flags": {
+                            "protection": "PAGE_READWRITE", 
+                            "allocation_type": "MEM_COMMIT|MEM_RESERVE"
+                        }
+                    }, 
+                    {
+                        "category": "file", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtCreateFile", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "create_disposition": 1, 
+                            "file_handle": "0x0000008c", 
+                            "filepath": "C:\\Windows\\SysWOW64\\explorer.exe", 
+                            "desired_access": "0x00000080", 
+                            "file_attributes": 0, 
+                            "filepath_r": "\\??\\C:\\Windows\\syswow64\\explorer.exe", 
+                            "create_options": 64, 
+                            "status_info": 1, 
+                            "share_access": 1
+                        }, 
+                        "time": 1717617232.17125, 
+                        "tid": 2352, 
+                        "flags": {
+                            "create_disposition": "FILE_OPEN", 
+                            "desired_access": "FILE_READ_ATTRIBUTES", 
+                            "create_options": "FILE_NON_DIRECTORY_FILE", 
+                            "file_attributes": "", 
+                            "status_info": "FILE_OPENED", 
+                            "share_access": "FILE_SHARE_READ"
+                        }
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtClose", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "handle": "0x0000008c"
+                        }, 
+                        "time": 1717617232.17125, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "CreateProcessInternalW", 
+                        "return_value": 1, 
+                        "arguments": {
+                            "thread_identifier": 2408, 
+                            "thread_handle": "0x0000008c", 
+                            "process_identifier": 2404, 
+                            "current_directory": "", 
+                            "filepath": "C:\\Windows\\SysWOW64\\explorer.exe", 
+                            "track": 1, 
+                            "command_line": "", 
+                            "filepath_r": "C:\\Windows\\syswow64\\explorer.exe", 
+                            "stack_pivoted": 0, 
+                            "creation_flags": 4, 
+                            "process_handle": "0x00000080", 
+                            "inherit_handles": 0
+                        }, 
+                        "time": 1717617232.40625, 
+                        "tid": 2352, 
+                        "flags": {
+                            "creation_flags": "CREATE_SUSPENDED"
+                        }
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtCreateSection", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "section_handle": "0x00000098", 
+                            "object_handle": "0x00000000", 
+                            "desired_access": "0x000f001f", 
+                            "protection": 64, 
+                            "section_name": "", 
+                            "file_handle": "0x00000000"
+                        }, 
+                        "time": 1717617232.40625, 
+                        "tid": 2352, 
+                        "flags": {
+                            "desired_access": "STANDARD_RIGHTS_REQUIRED|DELETE|READ_CONTROL|WRITE_DAC|WRITE_OWNER"
+                        }
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtMapViewOfSection", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "section_handle": "0x00000098", 
+                            "process_identifier": 2348, 
+                            "commit_size": 151552, 
+                            "win32_protect": 4, 
+                            "buffer": "", 
+                            "process_handle": "0xffffffff", 
+                            "allocation_type": 0, 
+                            "section_offset": 0, 
+                            "view_size": 151552, 
+                            "base_address": "0x00850000"
+                        }, 
+                        "time": 1717617232.40625, 
+                        "tid": 2352, 
+                        "flags": {
+                            "win32_protect": "PAGE_READWRITE", 
+                            "allocation_type": ""
+                        }
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "buffer": "7ccea58d11125c47adf75c05bbe89c8e49326ffa", 
+                        "api": "NtMapViewOfSection", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "section_handle": "0x00000098", 
+                            "process_identifier": 2404, 
+                            "commit_size": 151552, 
+                            "win32_protect": 64, 
+                            "buffer": "", 
+                            "process_handle": "0x00000080", 
+                            "allocation_type": 0, 
+                            "section_offset": 0, 
+                            "view_size": 151552, 
+                            "base_address": "0x00380000"
+                        }, 
+                        "time": 1717617232.40625, 
+                        "tid": 2352, 
+                        "flags": {
+                            "win32_protect": "PAGE_EXECUTE_READWRITE", 
+                            "allocation_type": ""
+                        }
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtUnmapViewOfSection", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "process_identifier": 2348, 
+                            "region_size": 151552, 
+                            "process_handle": "0xffffffff", 
+                            "base_address": "0x00850000"
+                        }, 
+                        "time": 1717617232.40625, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtClose", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "handle": "0x00000098"
+                        }, 
+                        "time": 1717617232.40625, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtCreateThreadEx", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "thread_name": "0x00000000", 
+                            "stack_zero_bits": 0, 
+                            "thread_handle": "0x00000098", 
+                            "process_identifier": 2404, 
+                            "parameter": "0x00000000", 
+                            "access": "0x001fffff", 
+                            "function_address": "0x00396e20", 
+                            "suspended": 1, 
+                            "process_handle": "0x00000080"
+                        }, 
+                        "time": 1717617232.40625, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtResumeThread", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "thread_handle": "0x00000098", 
+                            "suspend_count": 1, 
+                            "process_identifier": 2404
+                        }, 
+                        "time": 1717617232.90625, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtClose", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "handle": "0x00000098"
+                        }, 
+                        "time": 1717617232.90625, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtClose", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "handle": "0x0000008c"
+                        }, 
+                        "time": 1717617232.90625, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtClose", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "handle": "0x00000080"
+                        }, 
+                        "time": 1717617232.90625, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtFreeVirtualMemory", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "free_type": 16384, 
+                            "process_identifier": 2348, 
+                            "process_handle": "0xffffffff", 
+                            "base_address": "0x00840000", 
+                            "size": 4096
+                        }, 
+                        "time": 1717617232.90625, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtFreeVirtualMemory", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "free_type": 32768, 
+                            "process_identifier": 2348, 
+                            "process_handle": "0xffffffff", 
+                            "base_address": "0x00840000", 
+                            "size": 4096
+                        }, 
+                        "time": 1717617232.90625, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtFreeVirtualMemory", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "free_type": 16384, 
+                            "process_identifier": 2348, 
+                            "process_handle": "0xffffffff", 
+                            "base_address": "0x00830000", 
+                            "size": 4096
+                        }, 
+                        "time": 1717617232.90625, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtFreeVirtualMemory", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "free_type": 32768, 
+                            "process_identifier": 2348, 
+                            "process_handle": "0xffffffff", 
+                            "base_address": "0x00830000", 
+                            "size": 4096
+                        }, 
+                        "time": 1717617232.90625, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 0, 
+                        "stacktrace": [], 
+                        "last_error": 18, 
+                        "nt_status": -2147483642, 
+                        "api": "NtTerminateProcess", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "status_code": "0x00000000", 
+                            "process_identifier": 2348, 
+                            "process_handle": "0xffffffff"
+                        }, 
+                        "time": 1717617232.90625, 
+                        "tid": 2352, 
+                        "flags": {}
+                    }
+                ], 
+                "track": true, 
+                "pid": 2348, 
+                "process_name": "10002.exe", 
+                "command_line": "\"C:\\Users\\Administrator\\AppData\\Local\\Temp\\10002.exe\" ", 
+                "modules": [
+                    {
+                        "basename": "10002.exe", 
+                        "imgsize": 151552, 
+                        "baseaddr": "0x1370000", 
+                        "filepath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\10002.exe"
+                    }, 
+                    {
+                        "basename": "ntdll.dll", 
+                        "imgsize": 1572864, 
+                        "baseaddr": "0x77a90000", 
+                        "filepath": "C:\\Windows\\SysWOW64\\ntdll.dll"
+                    }, 
+                    {
+                        "basename": "kernel32.dll", 
+                        "imgsize": 1114112, 
+                        "baseaddr": "0x76230000", 
+                        "filepath": "C:\\Windows\\syswow64\\kernel32.dll"
+                    }, 
+                    {
+                        "basename": "KERNELBASE.dll", 
+                        "imgsize": 286720, 
+                        "baseaddr": "0x77260000", 
+                        "filepath": "C:\\Windows\\syswow64\\KERNELBASE.dll"
+                    }, 
+                    {
+                        "basename": "monitor-x86.dll", 
+                        "imgsize": 2117632, 
+                        "baseaddr": "0x73e30000", 
+                        "filepath": "C:\\tmpagmmpn\\bin\\monitor-x86.dll"
+                    }, 
+                    {
+                        "basename": "msvcrt.dll", 
+                        "imgsize": 704512, 
+                        "baseaddr": "0x75b90000", 
+                        "filepath": "C:\\Windows\\syswow64\\msvcrt.dll"
+                    }
+                ], 
+                "time": 0, 
+                "tid": 2352, 
+                "first_seen": 1717617231.90625, 
+                "ppid": 2324, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": false, 
+                "pid": 488, 
+                "process_name": "lsass.exe", 
+                "command_line": "C:\\Windows\\system32\\lsass.exe", 
+                "first_seen": 1717617231.28125, 
+                "ppid": 380, 
+                "children": []
+            }, 
+            {
+                "track": true, 
+                "pid": 2348, 
+                "process_name": "10002.exe", 
+                "command_line": "\"C:\\Users\\Administrator\\AppData\\Local\\Temp\\10002.exe\" ", 
+                "first_seen": 1717617231.90625, 
+                "ppid": 2324, 
+                "children": []
+            }
+        ], 
+        "summary": {
+            "file_opened": [
+                "C:\\Windows\\SysWOW64\\explorer.exe", 
+                "C:\\Users\\Administrator\\AppData\\Local\\Temp"
+            ], 
+            "command_line": [
+                "C:\\Windows\\SysWOW64\\explorer.exe"
+            ], 
+            "regkey_opened": [
+                "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings"
+            ], 
+            "regkey_read": [
+                "HKEY_LOCAL_MACHINE\\SYSTEM\\ControlSet001\\services\\crypt32\\DebugHeapFlags", 
+                "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Security_HKLM_only", 
+                "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\OLE\\PageAllocatorUseSystemHeap", 
+                "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows NT\\CurrentVersion\\Windows\\LoadAppInit_DLLs", 
+                "HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\DisableImprovedZoneCheck", 
+                "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\GRE_Initialize\\DisableMetaFiles", 
+                "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\OLE\\PageAllocatorSystemHeapIsPrivate"
+            ], 
+            "dll_loaded": [
+                "C:\\Windows\\system32\\IMM32.DLL", 
+                "CRYPTSP.dll", 
+                "wininet.dll", 
+                "gdi32.dll", 
+                "advapi32.dll", 
+                "ole32.dll", 
+                "ws2_32.dll", 
+                "user32.dll"
+            ]
+        }
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2024-06-05 20:53:50,000 [analyzer] DEBUG: Starting analyzer from: C:\\tmpagmmpn\n", 
+            "2024-06-05 20:53:50,000 [analyzer] DEBUG: Pipe server name: \\??\\PIPE\\epodEwUxocDeQTrsUFlLrYwehCW\n", 
+            "2024-06-05 20:53:50,000 [analyzer] DEBUG: Log pipe server name: \\??\\PIPE\\bWIiFNTZECTVLywtvZY\n", 
+            "2024-06-05 20:53:50,000 [analyzer] DEBUG: No analysis package specified, trying to detect it automagically.\n", 
+            "2024-06-05 20:53:50,000 [analyzer] INFO: Automatically selected analysis package \"exe\"\n", 
+            "2024-06-05 20:53:50,655 [analyzer] DEBUG: Started auxiliary module DbgView\n", 
+            "2024-06-05 20:53:51,078 [analyzer] DEBUG: Started auxiliary module Disguise\n", 
+            "2024-06-05 20:53:51,375 [analyzer] DEBUG: Loaded monitor into process with pid 488\n", 
+            "2024-06-05 20:53:51,375 [analyzer] DEBUG: Started auxiliary module DumpTLSMasterSecrets\n", 
+            "2024-06-05 20:53:51,375 [analyzer] DEBUG: Started auxiliary module Human\n", 
+            "2024-06-05 20:53:51,375 [analyzer] DEBUG: Started auxiliary module InstallCertificate\n", 
+            "2024-06-05 20:53:51,375 [analyzer] DEBUG: Started auxiliary module Reboot\n", 
+            "2024-06-05 20:53:51,625 [analyzer] DEBUG: Started auxiliary module RecentFiles\n", 
+            "2024-06-05 20:53:51,625 [modules.auxiliary.screenshots] INFO: Python Image Library (either PIL or Pillow) is not installed, screenshots are disabled.\n", 
+            "2024-06-05 20:53:51,625 [analyzer] DEBUG: Started auxiliary module Screenshots\n", 
+            "2024-06-05 20:53:51,625 [analyzer] DEBUG: Started auxiliary module LoadZer0m0n\n", 
+            "2024-06-05 20:53:51,842 [lib.api.process] INFO: Successfully executed process from path u'C:\\\\Users\\\\ADMINI~1\\\\AppData\\\\Local\\\\Temp\\\\10002.exe' with arguments '' and pid 2348\n", 
+            "2024-06-05 20:53:52,000 [analyzer] DEBUG: Loaded monitor into process with pid 2348\n", 
+            "2024-06-05 20:53:52,405 [analyzer] INFO: Injected into process with pid 2404 and name u'explorer.exe'\n", 
+            "2024-06-05 20:53:52,905 [lib.api.process] INFO: Memory dump of process with pid 2404 completed\n", 
+            "2024-06-05 20:53:53,842 [analyzer] INFO: Process with pid 2348 has terminated\n", 
+            "2024-06-05 20:53:59,842 [analyzer] INFO: Process with pid 2404 has terminated\n", 
+            "2024-06-05 20:53:59,842 [analyzer] INFO: Process list is empty, terminating analysis.\n", 
+            "2024-06-05 20:54:00,842 [analyzer] INFO: Analysis completed.\n"
+        ], 
+        "cuckoo": [
+            "2024-06-05 20:53:52,654 [cuckoo.core.scheduler] INFO: Task #2: acquired machine 192.168.56.1012 (label=192.168.56.1012)\n", 
+            "2024-06-05 20:53:52,655 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.56.102 for task #2\n", 
+            "2024-06-05 20:53:52,656 [cuckoo.core.plugins] DEBUG: Started auxiliary module: Replay\n", 
+            "2024-06-05 20:53:52,664 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 3439 (interface=vboxnet0, host=192.168.56.102)\n", 
+            "2024-06-05 20:53:52,665 [cuckoo.core.plugins] DEBUG: Started auxiliary module: Sniffer\n", 
+            "2024-06-05 20:53:52,874 [cuckoo.machinery.virtualbox] DEBUG: Starting vm 192.168.56.1012\n", 
+            "2024-06-05 20:53:53,154 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine 192.168.56.1012 to its current snapshot\n", 
+            "2024-06-05 20:55:53,633 [cuckoo.core.guest] INFO: Starting analysis #2 on guest (id=192.168.56.1012, ip=192.168.56.102)\n", 
+            "2024-06-05 20:55:53,658 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=192.168.56.1012, ip=192.168.56.102)\n", 
+            "2024-06-05 20:55:55,770 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=192.168.56.1012, ip=192.168.56.102, monitor=latest, size=3884763)\n", 
+            "2024-06-05 20:55:57,827 [cuckoo.core.resultserver] DEBUG: Task #2: live log analysis.log initialized.\n", 
+            "2024-06-05 20:55:59,153 [cuckoo.core.resultserver] DEBUG: Task #2 is sending a BSON stream\n", 
+            "2024-06-05 20:55:59,774 [cuckoo.core.resultserver] DEBUG: Task #2 is sending a BSON stream\n", 
+            "2024-06-05 20:56:00,757 [cuckoo.core.resultserver] DEBUG: Task #2: File upload for 'memory/2404-1.dmp'\n", 
+            "2024-06-05 20:56:00,779 [cuckoo.core.resultserver] DEBUG: Task #2 uploaded file length: 6329160\n", 
+            "2024-06-05 20:56:02,067 [cuckoo.core.guest] DEBUG: 192.168.56.1012: analysis #2 still processing\n", 
+            "2024-06-05 20:56:07,170 [cuckoo.core.guest] DEBUG: 192.168.56.1012: analysis #2 still processing\n", 
+            "2024-06-05 20:56:08,889 [cuckoo.core.resultserver] DEBUG: Task #2 had connection reset for <Context for LOG>\n", 
+            "2024-06-05 20:56:09,197 [cuckoo.core.guest] INFO: 192.168.56.1012: analysis completed successfully\n", 
+            "2024-06-05 20:56:10,357 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Replay\n", 
+            "2024-06-05 20:56:10,502 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2024-06-05 20:56:10,502 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm 192.168.56.1012\n", 
+            "2024-06-05 20:56:13,873 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.56.102 for task #2\n", 
+            "2024-06-05 20:56:14,250 [cuckoo.core.scheduler] DEBUG: Released database task #2\n", 
+            "2024-06-05 20:56:14,740 [cuckoo.core.plugins] DEBUG: Executed processing module \"AnalysisInfo\" for task #2\n", 
+            "2024-06-05 20:56:14,758 [cuckoo.core.plugins] DEBUG: Executed processing module \"BehaviorAnalysis\" for task #2\n", 
+            "2024-06-05 20:56:14,759 [cuckoo.core.plugins] DEBUG: Executed processing module \"Dropped\" for task #2\n", 
+            "2024-06-05 20:56:14,771 [cuckoo.core.plugins] DEBUG: Executed processing module \"DroppedBuffer\" for task #2\n", 
+            "2024-06-05 20:56:14,858 [cuckoo.core.plugins] DEBUG: Executed processing module \"MetaInfo\" for task #2\n", 
+            "2024-06-05 20:56:15,234 [cuckoo.core.plugins] DEBUG: Executed processing module \"ProcessMemory\" for task #2\n", 
+            "2024-06-05 20:56:15,234 [cuckoo.core.plugins] DEBUG: Executed processing module \"Procmon\" for task #2\n", 
+            "2024-06-05 20:56:15,234 [cuckoo.core.plugins] DEBUG: Executed processing module \"Screenshots\" for task #2\n", 
+            "2024-06-05 20:56:16,257 [cuckoo.core.plugins] DEBUG: Executed processing module \"Static\" for task #2\n", 
+            "2024-06-05 20:56:16,298 [cuckoo.core.plugins] DEBUG: Executed processing module \"Strings\" for task #2\n", 
+            "2024-06-05 20:56:52,255 [cuckoo.processing.suricata] WARNING: Unable to find the files-json.log log file\n", 
+            "2024-06-05 20:56:52,255 [cuckoo.core.plugins] DEBUG: Executed processing module \"Suricata\" for task #2\n", 
+            "2024-06-05 20:56:52,260 [cuckoo.core.plugins] DEBUG: Executed processing module \"TargetInfo\" for task #2\n", 
+            "2024-06-05 20:56:52,616 [cuckoo.core.plugins] DEBUG: Executed processing module \"NetworkAnalysis\" for task #2\n", 
+            "2024-06-05 20:56:52,616 [cuckoo.core.plugins] DEBUG: Executed processing module \"Extracted\" for task #2\n", 
+            "2024-06-05 20:56:52,617 [cuckoo.core.plugin"
+        ]
+    }, 
+    "strings": [
+        "!This program cannot be run in DOS mode.", 
+        "`.rdata", 
+        "@.data", 
+        ".reloc", 
+        "A<h=(E", 
+        "A\\hZ`m", 
+        "h/hMuj", 
+        "h.#0Oj", 
+        "h/y:Lj", 
+        "J0;H<r*", 
+        "t/hT3B", 
+        "QD;P t6", 
+        "Content-Type: application/x-www-form-urlencoded", 
+        "Connection: Keep-Alive", 
+        "Connection: close", 
+        "Content-Length: %d", 
+        "Content-Type: application/x-www-form-urlencoded", 
+        "j<)\u001fx@", 
+        "07KI5o61", 
+        "Connection: Keep-Alive", 
+        "Connection: close", 
+        "Content-Length: %d", 
+        "Qkkbal", 
+        "Content-Type: application/x-www-form-urlencoded", 
+        "Connection: Keep-Alive", 
+        "Connection: close", 
+        "Content-Length: %d", 
+        "E(|\"U-", 
+        "B \u001fdj7", 
+        "Content-Type: application/x-www-form-urlencoded", 
+        "Connection: Keep-Alive", 
+        "Connection: close", 
+        "Content-Length: %d", 
+        "E(|\"U-", 
+        "B \u001fdj7", 
+        "E(|\"U-", 
+        "B \u001fdj7", 
+        "E(|\"U-", 
+        "B \u001fdj7", 
+        "kKoCjb@", 
+        "l}@-s@", 
+        "!N!q/ ", 
+        ")\"Oa\"Pc%?Q", 
+        "eyea-a&u\"", 
+        "F36[&?);)", 
+        "_2_2_2", 
+        "Z_0_0_0", 
+        "_I?@_I", 
+        "_I_I7{", 
+        " C_A)n", 
+        "Ua@UC]", 
+        "?> 2. ", 
+        "x9jSeq@gP", 
+        "s))?1?1", 
+        "?1?1?1?1?1?1", 
+        "O4SN? ", 
+        "(@\"GKs@", 
+        ">nB>zf", 
+        "'%gv%'", 
+        "afZeV!%", 
+        "vdWr$&", 
+        "~eK!pi\\1#k/7\"", 
+        "n@7:@Ph", 
+        "0ACC1A", 
+        "S*<B$d", 
+        ".g=3%F", 
+        "DU!2 `", 
+        "9\"~M\":!", 
+        "?6?6?6", 
+        "&_/_/U/H", 
+        "trR0uu", 
+        "!pR<1&5F", 
+        "A#.NHQ`A", 
+        " AtUawwBW", 
+        "Qs}B#r", 
+        "oYc\"ha(", 
+        "U^1DsC", 
+        "D5^aRf", 
+        "j2[Qk1", 
+        ".2U_(_(", 
+        "&)_._._.", 
+        "_._._._._.", 
+        "CkA:iB", 
+        "wmBTkJ", 
+        " wb)!U", 
+        ":p\"TaT%g", 
+        "Q61@}3", 
+        "E0YVP#C", 
+        "!'.\"\\k`", 
+        "g7 b3a", 
+        "0 Rl1MQ&", 
+        "_?_?3,", 
+        ":12r04Q&Q", 
+        "&w2Q=s", 
+        "3, 2M1", 
+        "Q/SqS_", 
+        "#t@(A#", 
+        "E\u001f-B1z", 
+        "CjUC1 @", 
+        "nB/r@Vc", 
+        "B^E] @V", 
+        "aTa\"Q/", 
+        "c0$q!gx", 
+        "qWBMEC", 
+        "Amr@u ", 
+        "b+t$\u001fS$", 
+        "a;iOg&#K", 
+        " 7y{\u001fU", 
+        "xB:aBE", 
+        "kKoCjb@", 
+        "0-\"A\"4", 
+        "Qa%rb`!", 
+        "a/ana`", 
+        "ababc#9", 
+        "11?qLq", 
+        "p7J5q}", 
+        "SKw1qEyR", 
+        "sFkA1np", 
+        "Co}C^g@", 
+        "w%wi`!#", 
+        "aMa\"Jn/", 
+        "\u001f2\u001f2\u001f2\u001f2\u001f2", 
+        "mDsW,c", 
+        "^A.)BG", 
+        "a+C&1e(m", 
+        "Oa\u001f+-'", 
+        "\u001f#-s\"h", 
+        "\"Qi$8!", 
+        "a!?#'#", 
+        "A=n@8:", 
+        ":BYAodU", 
+        "7#5Zb ", 
+        ".~*PbD", 
+        "xt\"u/ ", 
+        "?1?1?1?1", 
+        "CvoBZA", 
+        "CFI}Ct", 
+        "KA,uHl", 
+        "^ib##!", 
+        "!?% tE", 
+        "!D@UaSA", 
+        "sBhAdi", 
+        "c@/iU@", 
+        ".b\u001fP\".!", 
+        " A/\"F.", 
+        "c$cLcOu", 
+        "! !<!de\"", 
+        "_.?Y?Y", 
+        "U'qpit>", 
+        "?-?-9-=7}[", 
+        "fBamH<", 
+        "(H(CuAI", 
+        "Z)`bIBQG", 
+        "!McQchmd", 
+        "It`#\u001fa/#", 
+        "E(|\"U-", 
+        "B \u001fdj7", 
+        "E(|\"U-", 
+        "B \u001fdj7", 
+        "E(|\"U-", 
+        "B \u001fdj7", 
+        "E(|\"U-", 
+        "B \u001fdj7", 
+        "Content-Type: application/x-www-form-urlencoded", 
+        "Connection: Keep-Alive", 
+        "Connection: close", 
+        "Content-Length: %d", 
+        "Content-Type: application/x-www-form-urlencoded", 
+        "Connection: Keep-Alive", 
+        "Connection: close", 
+        "Content-Length: %d", 
+        "E(|\"U-", 
+        "B \u001fdj7", 
+        ":$;H;a;{;", 
+        "<#<=<W<q<", 
+        "='=A=[=u=", 
+        ">+>E>_>y>", 
+        "?'?D?a?~?", 
+        "0,0I0f0", 
+        "111N1k1", 
+        "262S2p2", 
+        "3;3X3u3", 
+        "4#4@4]4z4", 
+        "5(5E5b5", 
+        "6-6J6g6", 
+        "727O7l7", 
+        "878T8q8", 
+        "9\u001f9<9Y9v9", 
+        ":$:A:^:{:", 
+        ";);F;c;", 
+        "<.<K<h<", 
+        "=3=P=m=", 
+        ">8>U>r>", 
+        "? ?=?Z?w?", 
+        "0%0B0_0|0", 
+        "1*1G1d1", 
+        "2/2L2i2", 
+        "343Q3n3", 
+        "494V4s4", 
+        "5!5>5[5x5", 
+        "6&6C6`6}6", 
+        "7+7H7e7", 
+        "808M8j8", 
+        "$0.6D6w6", 
+        "3+3D3Q3[3{3", 
+        "4!4'40474@4I4", 
+        "5\u001f5%50575@5G5Q5V5]5", 
+        "=?=U=~=", 
+        "</<D<U<^<g<v<", 
+        "=3=_=~=", 
+        ">\">*>o>", 
+        ">8?A?I?w?", 
+        "0K0S0_0r0", 
+        "\"0'0:0?0R0W0j0o0", 
+        "1$1*1[1d1j1t1|1", 
+        "3.343z3", 
+        "4@5I5[5e5v5", 
+        "5;6T6$<8=M=", 
+        "jjjjjj", 
+        "jjjjjj", 
+        "jjjjjjj", 
+        "HELP_DECRYPT.TXT", 
+        "HELP_DECRYPT.HTML", 
+        "HELP_DECRYPT.URL", 
+        "HELP_DECRYPT.PNG", 
+        "HELP_DECRYPT.TXT", 
+        "HELP_DECRYPT.HTML", 
+        "HELP_DECRYPT.URL", 
+        "HELP_DECRYPT.PNG", 
+        "HELP_DECRYPT.TXT", 
+        "HELP_DECRYPT.HTML", 
+        "HELP_DECRYPT.URL", 
+        "HELP_DECRYPT.PNG", 
+        "HELP_DECRYPT.TXT", 
+        "HELP_DECRYPT.HTML", 
+        "HELP_DECRYPT.URL", 
+        "HELP_DECRYPT.PNG", 
+        "oWaTl 3.", 
+        "</ti0le>", 
+        "HELP_DECRYPT.TXT", 
+        "HELP_DECRYPT.HTML", 
+        "HELP_DECRYPT.URL", 
+        "HELP_DECRYPT.PNG", 
+        "HELP_DECRYPT.TXT", 
+        "HELP_DECRYPT.HTML", 
+        "HELP_DECRYPT.URL", 
+        "HELP_DECRYPT.PNG", 
+        "HELP_DECRYPT.TXT", 
+        "HELP_DECRYPT.HTML", 
+        "HELP_DECRYPT.URL", 
+        "HELP_DECRYPT.PNG", 
+        "HELP_DECRYPT.TXT", 
+        "HELP_DECRYPT.HTML", 
+        "HELP_DECRYPT.URL", 
+        "HELP_DECRYPT.PNG", 
+        "HELP_DECRYPT.TXT", 
+        "HELP_DECRYPT.HTML", 
+        "HELP_DECRYPT.URL", 
+        "HELP_DECRYPT.PNG"
+    ], 
+    "metadata": {
+        "output": {
+            "memdumps": [
+                {
+                    "basename": "2404-1.dmp", 
+                    "sha256": "c93c66670bd70ba7887f05b72b7d3fc77ed1a105fcdefefdc4352e267ca50436", 
+                    "dirname": "memory"
+                }
+            ], 
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "3b361d5162fea5559b21b7641362603397c67c1bdfa7871f6ed4faa383ceb0e5", 
+                "dirname": ""
+            }, 
+            "buffers": [
+                {
+                    "basename": "7ccea58d11125c47adf75c05bbe89c8e49326ffa", 
+                    "sha256": "4d15756629998db8ea52e9d1abb3943ca1e87860597aaaebeeb22d7bfab51083", 
+                    "dirname": "buffer"
+                }
+            ]
+        }
+    }
+}
