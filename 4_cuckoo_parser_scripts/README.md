@@ -4,6 +4,6 @@ This repository contains a modular set of Python scripts for extracting behaviou
 
 ## Usage
 
-1. Place your `report.json` files in the `json_reports/` directory.
+1. Place your `report.json` files into the `json_reports/` directory. A selection of example reports has been included to facilitate testing and demonstration of the parsing scripts.
 2. Run individual parsers or use the `combined_parser.ipynb` notebook for batch processing.
 3. Outputs can be stored as structured features for further analysis or machine learning tasks.
