@@ -80,9 +80,7 @@ This file contains the metadata of the **MLRan dataset**. It includes metadata t
 11. **detections**  
     - Indicates how many antivirus engines flagged the file as malicious out of the total scanned by VirusTotal (e.g., `0/77` means no detections among 77 engines).  
     - All goodware samples have `0`, while ransomware samples have at least one detection.
-12. **timestamp**  
-    - A timestamp related to when the sample was first seen or analyzed. 
-13. **source**  
+12. **source**  
     - Indicates where each sample originated.  
     - Goodware: All goodware samples were downloaded from [software informer website](https://software.informer.com/). The label indicates the category of the sample (e.g., `most_popular`, `developer_tools`, `communications`).  
     - Ransomware: Collected from multiple sources:  
@@ -90,5 +88,19 @@ This file contains the metadata of the **MLRan dataset**. It includes metadata t
       2. **motif** – [GitHub](https://github.com/boozallen/MOTIF)  
       3. **marauder** – [GitHub](https://github.com/THU-WingTecher/MarauderMap)  
       4. **curated** – Aggregated from platforms like Malware Bazaar, Ransomware Reports etc.
+13. **old_timestamp**  
+    - A timestamp related to when the sample.
+14. **timestamp**  
+    - A cleaned timestamp from `old_timestamp`. Missing values for each sample are replaced with the mode of that sample family or category.
+15. **new_timestamp**  
+    -  A cleaned timestamp from `timestamp`. Separation made consistent. 
+16. **Year**  
+    - Year extracted from `new_timestamp`.
+17. **first_submission_date**  
+    - The Unix epoch timestamp indicating the first time the sample was submitted to VirusTotal.
+18. **first_submission_date_converted**  
+    - The human-readable conversion of `first_submission_date`, expressed in `YYYY-MM-DD` format.
+19. **first_submission_date_year**  
+    - The year extracted from `first_submission_date_converted`, useful for temporal aggregation and trend analysis.
 
 ---
