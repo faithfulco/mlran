@@ -1,0 +1,6 @@
+Model,Accuracy,Balanced Accuracy,Precision,Recall,F1-Score,ROC-AUC,Training Time (s),Best Hyperparameters
+LightGBM,0.9405,0.9402,0.9405,0.9405,0.9405,0.9873,1206.5883,"{'learning_rate': 0.01, 'n_estimators': 100, 'num_leaves': 31}"
+Decision Tree,0.9354,0.9343,0.9361,0.9354,0.9353,0.9464,12.1335,"{'max_depth': 20, 'min_samples_split': 10}"
+Logistic Regression,0.9815,0.9818,0.9816,0.9815,0.9815,0.9968,0.8578,"{'C': 1, 'penalty': 'l2', 'solver': 'liblinear'}"
+Random Forest,0.9662,0.9663,0.9662,0.9662,0.9662,0.9951,2.2099,"{'max_depth': None, 'min_samples_split': 5, 'n_estimators': 200}"
+Extra Trees,0.9713,0.9718,0.9716,0.9713,0.9713,0.9946,1.5969,"{'max_depth': 20, 'min_samples_split': 2, 'n_estimators': 100}"

@@ -1,0 +1,6 @@
+Model,Accuracy,Balanced Accuracy,Precision,Recall,F1-Score,ROC-AUC,Training Time (s),Best Hyperparameters,Label Mapping
+LightGBM,0.8195,0.7343,0.8234,0.8195,0.8147,0.9656,5447.4573,"{'learning_rate': 0.01, 'n_estimators': 100, 'num_leaves': 31}","{0: np.int64(0), 1: np.int64(1), 2: np.int64(2), 3: np.int64(3), 4: np.int64(4)}"
+Decision Tree,0.8379,0.7443,0.8443,0.8379,0.8378,0.9108,12.1728,"{'max_depth': 20, 'min_samples_split': 5}","{0: np.int64(0), 1: np.int64(1), 2: np.int64(2), 3: np.int64(3), 4: np.int64(4)}"
+Logistic Regression,0.8646,0.7986,0.877,0.8646,0.8657,0.9787,1.3116,"{'C': 1, 'penalty': 'l2', 'solver': 'lbfgs'}","{0: np.int64(0), 1: np.int64(1), 2: np.int64(2), 3: np.int64(3), 4: np.int64(4)}"
+Random Forest,0.8667,0.7934,0.8743,0.8667,0.8665,0.982,2.6745,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 200}","{0: np.int64(0), 1: np.int64(1), 2: np.int64(2), 3: np.int64(3), 4: np.int64(4)}"
+Extra Trees,0.8769,0.8071,0.8832,0.8769,0.8777,0.9823,1.6061,"{'max_depth': None, 'min_samples_split': 5, 'n_estimators': 100}","{0: np.int64(0), 1: np.int64(1), 2: np.int64(2), 3: np.int64(3), 4: np.int64(4)}"
