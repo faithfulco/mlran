@@ -68,6 +68,6 @@ All ransomware analyses were conducted in **controlled sandbox environments**. T
 
 
 
-## 📜 License
+## License
 
 This repository is licensed under the [MIT License](LICENSE). Attribution is appreciated.
