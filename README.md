@@ -6,7 +6,7 @@
 
 MLRan is developed in line with **GUIDE-MLRan**, a set of practical guidelines we propose for constructing high-quality behavioural ransomware datasets. The repository provides open access to the dataset (feature-processed), collection and parsing scripts, machine learning pipelines, and interpretability experiments, all designed to ensure reproducibility and transparency.
 
-You can read more about the dataset: [Read the paper](https://arxiv.org/abs/2505.18613)
+You can read more about the dataset in ArXiv: [Read the paper](https://arxiv.org/abs/2505.18613)
 
 ## Citation
 
