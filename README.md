@@ -28,7 +28,7 @@ The figure below summarises the MLRan pipeline, from sample collection and dynam
 ![model_design](https://github.com/user-attachments/assets/cb17acf3-5c2f-4d75-8dfc-771b35eaa523)
 
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 mlran/
