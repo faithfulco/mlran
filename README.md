@@ -6,12 +6,24 @@
 
 MLRan is developed in line with **GUIDE-MLRan**, a set of practical guidelines we propose for constructing high-quality behavioural ransomware datasets. The repository provides open access to the dataset (feature-processed), collection and parsing scripts, machine learning pipelines, and interpretability experiments, all designed to ensure reproducibility and transparency.
 
-**Publication**:
+You can read more about the dataset: [Read the paper](https://arxiv.org/abs/2505.18613)
 
-> **MLRan: A Behavioural Dataset for Ransomware Analysis and Detection**
-> Faithful Chiagoziem Onwuegbuche, Sunday Olaoluwa Adelodun, Anca Delia Jurcut, Liliana Pasquale
-> *arXiv preprint arXiv:2505.18613 (2025)*
-> 📄 [Read the paper](https://arxiv.org/abs/2505.18613)
+## Citation
+
+Please cite the following if you use MLRan in your work:
+
+```bibtex
+@article{onwuegbuche2025mlran,
+  title={MLRan: A Behavioural Dataset for Ransomware Analysis and Detection},
+  author={Onwuegbuche, Faithful Chiagoziem and Adelodun, Sunday Olaoluwa and Jurcut, Anca Delia and Pasquale, Liliana},
+  journal={arXiv preprint arXiv:2505.18613},
+  year={2025},
+  url={https://www.arxiv.org/abs/2505.18613}
+}
+```
+
+![model_design](https://github.com/user-attachments/assets/cb17acf3-5c2f-4d75-8dfc-771b35eaa523)
+
 
 ## 📁 Repository Structure
 
@@ -39,20 +51,6 @@ mlran/
 | Feature Space (reduced)      | 483 (via MI + RFE) |
 | Max Accuracy (ML)            | 98.7%              |
 | Max Precision / Recall       | 98.9% / 98.5%      |
-
-## Citation
-
-Please cite the following if you use MLRan in your work:
-
-```bibtex
-@article{onwuegbuche2025mlran,
-  title={MLRan: A Behavioural Dataset for Ransomware Analysis and Detection},
-  author={Onwuegbuche, Faithful Chiagoziem and Adelodun, Sunday Olaoluwa and Jurcut, Anca Delia and Pasquale, Liliana},
-  journal={arXiv preprint arXiv:2505.18613},
-  year={2025},
-  url={https://www.arxiv.org/abs/2505.18613}
-}
-```
 
 ## Disclaimer
 
