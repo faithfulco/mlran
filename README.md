@@ -22,6 +22,9 @@ Please cite the following if you use MLRan in your work:
 }
 ```
 
+## Project Overview
+The figure below summarises the MLRan pipeline, from sample collection and dynamic analysis to feature extraction, selection, and ML-based classification with SHAP and LIME explainability.
+
 ![model_design](https://github.com/user-attachments/assets/cb17acf3-5c2f-4d75-8dfc-771b35eaa523)
 
 
