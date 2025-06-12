@@ -11,6 +11,7 @@ You can read more about the dataset in ArXiv: [Read the paper](https://arxiv.org
 ## Citation
 
 Please cite the following if you use MLRan in your work:
+Onwuegbuche, F. C., Olaoluwa, A., Jurcut, A. D., & Pasquale, L. (2025). MLRan: A Behavioural Dataset for Ransomware Analysis and Detection. arXiv preprint arXiv:2505.18613.
 
 ```bibtex
 @article{onwuegbuche2025mlran,
