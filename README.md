@@ -1,26 +1,37 @@
 # MLRan: A Behavioural Dataset for Ransomware Analysis and Detection
 
-[![arXiv](https://img.shields.io/badge/arXiv-2505.18613-b31b1b.svg)](https://arxiv.org/abs/2505.18613)
+[![JNCA](https://img.shields.io/badge/arXiv-2505.18613-b31b1b.svg)](https://www.sciencedirect.com/science/article/pii/S1084804526000500)
 
-**MLRan** is a large-scale, high-quality behavioural dataset designed to support research in machine learning-based ransomware detection, classification, and behavioural analysis. The dataset comprises **over 4,800 dynamically analysed samples**, spanning **64 ransomware families** and a **balanced set of goodware**, collected between **2006 and 2024**. The dataset covers all major types of ransomware, including locker, crypto, ransomware-as-a-service (RaaS), and modern types.
+**MLRan** is a large-scale, high-quality behavioural dataset designed to support research in machine learning-based ransomware detection, classification, and behavioural analysis. The dataset comprises **over 4,800 dynamically analysed samples**, spanning **64 ransomware families** and a **balanced set of goodware**, collected between **2006 and 2024**. The dataset covers all major ransomware types, including locker, crypto, ransomware-as-a-service (RaaS), and modern variants.
 
-MLRan is developed in line with **GUIDE-MLRan**, a set of practical guidelines we propose for constructing high-quality behavioural ransomware datasets. The repository provides open access to the dataset (feature-processed), collection and parsing scripts, machine learning pipelines, and interpretability experiments, all designed to ensure reproducibility and transparency.
+MLRan follows **GUIDE-MLRan**, a set of practical guidelines we propose for constructing high-quality behavioural ransomware datasets. The repository provides open access to the dataset (feature-processed), collection and parsing scripts, machine learning pipelines, and interpretability experiments, all designed to ensure reproducibility and transparency.
 
-You can read more about the dataset in ArXiv: [Read the paper](https://arxiv.org/abs/2505.18613)
+You can read more about the dataset in the published paper in the Elsevier Journal of Network and Computer Applications: [Read the paper](https://www.sciencedirect.com/science/article/pii/S1084804526000500)
+
+## Resources
+
+📂 **Complete Dataset on (Zenodo):** [Access the complete MLRan dataset](https://zenodo.org/records/23403681)
+
+💻 **Codebase (GitHub):** [MLRan Source Code](https://github.com/faithfulco/mlran)
+
+📄 **Research Paper (Journal of Network and Computer Applications):** [https://doi.org/10.1016/j.jnca.2026.104475](https://doi.org/10.1016/j.jnca.2026.104475)
+
 
 ## Citation
 
 Please cite the following if you use MLRan in your work:
 
-Onwuegbuche, F. C., Olaoluwa, A., Jurcut, A. D., & Pasquale, L. (2025). MLRan: A Behavioural Dataset for Ransomware Analysis and Detection. arXiv preprint arXiv:2505.18613.
+Onwuegbuche, F. C., Adelodun, S. O., Jurcut, A. D., & Pasquale, L. (2026). MLRan: A behavioural dataset for ransomware analysis and detection. Journal of Network and Computer Applications, 104475.
 
 ```bibtex
-@article{onwuegbuche2025mlran,
-  title={MLRan: A Behavioural Dataset for Ransomware Analysis and Detection},
+@article{onwuegbuche2026mlran,
+  title={{MLRan}: A behavioural dataset for ransomware analysis and detection},
   author={Onwuegbuche, Faithful Chiagoziem and Adelodun, Sunday Olaoluwa and Jurcut, Anca Delia and Pasquale, Liliana},
-  journal={arXiv preprint arXiv:2505.18613},
-  year={2025},
-  url={https://www.arxiv.org/abs/2505.18613}
+  journal={Journal of Network and Computer Applications},
+  pages={104475},
+  year={2026},
+  publisher={Elsevier},
+  doi={10.1016/j.jnca.2026.104475}
 }
 ```
 
@@ -59,16 +70,13 @@ mlran/
 
 ## Disclaimer
 
-All ransomware analyses were conducted in **controlled sandbox environments**. This repository **does not distribute raw binaries**. However, we provide the hashes of the samples and complete metadata, including code to help in downloading the samples. Researchers are advised to follow appropriate safety protocols when working with malware and to comply with their institution’s ethical and legal standards.
+All ransomware analyses were conducted in **controlled sandbox environments**. This repository **does not distribute raw binaries**. However, we provide sample hashes and complete metadata, including code to help you download the samples. Researchers should follow appropriate safety protocols when working with malware and comply with their institution’s ethical and legal standards.
 
 ## Contact
 
 - **Lead Author**: [Faithful Chiagoziem Onwuegbuche](https://github.com/faithfulco)  
-- 📧 Email: [faithful.chiagoziemonwuegb@ucdconnect.ie](mailto:faithful.chiagoziemonwuegb@ucdconnect.ie)  
+- 📧 Email: [faithful.onwuegbuche@ucd.ie](mailto:faithful.onwuegbuche@ucd.ie)  
 - 🔗 LinkedIn: [faithful-onwuegbuche](https://www.linkedin.com/in/faithful-onwuegbuche/)  
-- 📄 [MLRan Paper on arXiv](https://arxiv.org/abs/2505.18613)
- 
-
 
 ## License
 
