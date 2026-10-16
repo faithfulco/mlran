@@ -1,7 +1,5 @@
 # MLRan: A Behavioural Dataset for Ransomware Analysis and Detection
 
-[![JNCA](https://img.shields.io/badge/arXiv-2505.18613-b31b1b.svg)](https://www.sciencedirect.com/science/article/pii/S1084804526000500)
-
 **MLRan** is a large-scale, high-quality behavioural dataset designed to support research in machine learning-based ransomware detection, classification, and behavioural analysis. The dataset comprises **over 4,800 dynamically analysed samples**, spanning **64 ransomware families** and a **balanced set of goodware**, collected between **2006 and 2024**. The dataset covers all major ransomware types, including locker, crypto, ransomware-as-a-service (RaaS), and modern variants.
 
 MLRan follows **GUIDE-MLRan**, a set of practical guidelines we propose for constructing high-quality behavioural ransomware datasets. The repository provides open access to the dataset (feature-processed), collection and parsing scripts, machine learning pipelines, and interpretability experiments, all designed to ensure reproducibility and transparency.
